@@ -1,7 +1,4 @@
-{{ config(
-    materialized='table',
-    schema='GOLD'
-) }}
+
 
 SELECT
 
@@ -11,7 +8,7 @@ SELECT
 FROM (
 
     SELECT DISTINCT energy_rating
-    FROM {{ ref('listings_clean') }}
+    FROM REAL_ESTATE_DB.SILVER.listings_clean
     WHERE energy_rating IS NOT NULL
 
 )

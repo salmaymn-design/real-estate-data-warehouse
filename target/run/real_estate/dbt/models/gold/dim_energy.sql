@@ -1,7 +1,12 @@
-{{ config(
-    materialized='table',
-    schema='GOLD'
-) }}
+
+  
+    
+
+create or replace transient table REAL_ESTATE_DB.GOLD.dim_energy
+    
+    
+    
+    as (
 
 SELECT
 
@@ -11,7 +16,12 @@ SELECT
 FROM (
 
     SELECT DISTINCT energy_rating
-    FROM {{ ref('listings_clean') }}
+    FROM REAL_ESTATE_DB.SILVER.listings_clean
     WHERE energy_rating IS NOT NULL
 
 )
+    )
+;
+
+
+  

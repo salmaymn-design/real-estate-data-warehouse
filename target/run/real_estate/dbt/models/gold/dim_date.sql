@@ -1,7 +1,12 @@
-{{ config(
-    materialized='table',
-    schema='GOLD'
-) }}
+
+  
+    
+
+create or replace transient table REAL_ESTATE_DB.GOLD.dim_date
+    
+    
+    
+    as (
 
 SELECT
 
@@ -16,6 +21,11 @@ SELECT
     DAYNAME(listing_date) AS day_name,
     QUARTER(listing_date) AS quarter
 
-FROM {{ ref('listings_clean') }}
+FROM REAL_ESTATE_DB.SILVER.listings_clean
 
 WHERE listing_date IS NOT NULL
+    )
+;
+
+
+  

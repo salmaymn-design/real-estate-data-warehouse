@@ -1,7 +1,4 @@
-{{ config(
-    materialized='table',
-    schema='GOLD'
-) }}
+
 
 SELECT
 
@@ -21,6 +18,6 @@ FROM (
         city,
         neighborhood
 
-    FROM {{ ref('listings_clean') }}
+    FROM REAL_ESTATE_DB.SILVER.listings_clean
 
 )

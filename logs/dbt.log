@@ -4726,3 +4726,2055 @@ WHERE c.rn = 1
 [0m11:54:31.891616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BE878DB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BE87AF090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018BE0BA7450>]}
 [0m11:54:31.891616 [debug] [MainThread]: Flushing usage events
 [0m11:54:32.890914 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:36:05.630331 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014B669F5C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014B669F5C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014B66C99DF0>]}
+
+
+============================== 14:36:05.633336 | 31bb396e-3445-4ae1-8f0e-c42d25112563 ==============================
+[0m14:36:05.633336 [info ] [MainThread]: Running with dbt=1.11.12
+[0m14:36:05.633336 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\us\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\us\\real-estate-data-warehouse\\logs'}
+[0m14:36:05.648340 [info ] [MainThread]: dbt version: 1.11.12
+[0m14:36:05.648340 [info ] [MainThread]: python version: 3.12.10
+[0m14:36:05.649338 [info ] [MainThread]: python path: C:\Users\us\real-estate-data-warehouse\venv\Scripts\python.exe
+[0m14:36:05.649338 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m14:36:05.955212 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m14:36:05.956216 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m14:36:05.956216 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m14:36:05.999237 [info ] [MainThread]: Using profiles dir at C:\Users\us\.dbt
+[0m14:36:06.000236 [info ] [MainThread]: Using profiles.yml file at C:\Users\us\.dbt\profiles.yml
+[0m14:36:06.000236 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\us\real-estate-data-warehouse\dbt_project.yml
+[0m14:36:06.001739 [info ] [MainThread]: adapter type: snowflake
+[0m14:36:06.001739 [info ] [MainThread]: adapter version: 1.11.6
+[0m14:36:06.068414 [info ] [MainThread]: Configuration:
+[0m14:36:06.069412 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:36:06.069412 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m14:36:06.070412 [info ] [MainThread]: Required dependencies:
+[0m14:36:06.070412 [debug] [MainThread]: Executing "git --help"
+[0m14:36:06.097449 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:36:06.098461 [debug] [MainThread]: STDERR: "b''"
+[0m14:36:06.098461 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:36:06.098461 [info ] [MainThread]: Connection:
+[0m14:36:06.099449 [info ] [MainThread]:   account: pi44518.eu-west-3.aws
+[0m14:36:06.099449 [info ] [MainThread]:   user: FATIMAEZZAHRA
+[0m14:36:06.099449 [info ] [MainThread]:   database: REAL_ESTATE_DB
+[0m14:36:06.100450 [info ] [MainThread]:   warehouse: COMPTE_WH
+[0m14:36:06.100450 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m14:36:06.100450 [info ] [MainThread]:   schema: BRONZE
+[0m14:36:06.100450 [info ] [MainThread]:   authenticator: None
+[0m14:36:06.100450 [info ] [MainThread]:   oauth_client_id: None
+[0m14:36:06.101958 [info ] [MainThread]:   query_tag: None
+[0m14:36:06.101958 [info ] [MainThread]:   client_session_keep_alive: False
+[0m14:36:06.101958 [info ] [MainThread]:   host: None
+[0m14:36:06.101958 [info ] [MainThread]:   port: None
+[0m14:36:06.102963 [info ] [MainThread]:   proxy_host: None
+[0m14:36:06.102963 [info ] [MainThread]:   proxy_port: None
+[0m14:36:06.102963 [info ] [MainThread]:   protocol: None
+[0m14:36:06.102963 [info ] [MainThread]:   connect_retries: 1
+[0m14:36:06.102963 [info ] [MainThread]:   connect_timeout: None
+[0m14:36:06.103964 [info ] [MainThread]:   retry_on_database_errors: False
+[0m14:36:06.103964 [info ] [MainThread]:   retry_all: False
+[0m14:36:06.103964 [info ] [MainThread]:   insecure_mode: False
+[0m14:36:06.103964 [info ] [MainThread]:   reuse_connections: True
+[0m14:36:06.103964 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m14:36:06.104963 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m14:36:06.104963 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m14:36:06.250871 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m14:36:06.279784 [debug] [MainThread]: Using snowflake connection "debug"
+[0m14:36:06.279784 [debug] [MainThread]: On debug: select 1 as id
+[0m14:36:06.279784 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:36:07.554409 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.274 seconds
+[0m14:36:07.555409 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:36:07.556406 [info ] [MainThread]: [32mAll checks passed![0m
+[0m14:36:07.557406 [debug] [MainThread]: Command `dbt debug` succeeded at 14:36:07.557406 after 2.06 seconds
+[0m14:36:07.557406 [debug] [MainThread]: Connection 'debug' was left open.
+[0m14:36:07.558405 [debug] [MainThread]: On debug: Close
+[0m14:36:07.717988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014B66C99DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014B67048260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014B69B05D60>]}
+[0m14:36:07.718992 [debug] [MainThread]: Flushing usage events
+[0m14:36:08.392794 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:36:16.392159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E92D87AA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E927AFB020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E92DED36B0>]}
+
+
+============================== 14:36:16.395165 | 7b8f05db-a34a-487c-8a9f-8ed89b8eaa9e ==============================
+[0m14:36:16.395165 [info ] [MainThread]: Running with dbt=1.11.12
+[0m14:36:16.395165 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\us\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\us\\real-estate-data-warehouse\\logs'}
+[0m14:36:16.651554 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m14:36:16.651554 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m14:36:16.651554 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m14:36:16.834069 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7b8f05db-a34a-487c-8a9f-8ed89b8eaa9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E930949460>]}
+[0m14:36:16.874316 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7b8f05db-a34a-487c-8a9f-8ed89b8eaa9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E93096E540>]}
+[0m14:36:16.875307 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m14:36:17.051300 [debug] [MainThread]: checksum: f368f5348cf42803b94ef7fb8257ecf3bf9a9a16dd9c8c51fe5172f2dbeb457f, vars: {}, profile: , target: , version: 1.11.12
+[0m14:36:17.148348 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m14:36:17.148348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '7b8f05db-a34a-487c-8a9f-8ed89b8eaa9e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E92DED0AA0>]}
+[0m14:36:19.716400 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.real_estate.dim_date' (dbt/models\gold\dim_date.sql) depends on a node named 'listings_clean' which was not found
+[0m14:36:19.717406 [debug] [MainThread]: Command `dbt run` failed at 14:36:19.717406 after 3.41 seconds
+[0m14:36:19.718405 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E92F537410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E93094BF20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E930E02450>]}
+[0m14:36:19.718405 [debug] [MainThread]: Flushing usage events
+[0m14:36:20.585760 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:38:26.374914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000265093BD370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002650779A8A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026507F8EB70>]}
+
+
+============================== 14:38:26.377915 | 5a1cf55f-eda3-4190-aa25-5c17986bc167 ==============================
+[0m14:38:26.377915 [info ] [MainThread]: Running with dbt=1.11.12
+[0m14:38:26.378913 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\us\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\us\\real-estate-data-warehouse\\logs'}
+[0m14:38:26.392214 [info ] [MainThread]: dbt version: 1.11.12
+[0m14:38:26.392214 [info ] [MainThread]: python version: 3.12.10
+[0m14:38:26.392214 [info ] [MainThread]: python path: C:\Users\us\real-estate-data-warehouse\venv\Scripts\python.exe
+[0m14:38:26.393181 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m14:38:26.683121 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m14:38:26.683121 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m14:38:26.683121 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m14:38:26.728619 [info ] [MainThread]: Using profiles dir at C:\Users\us\.dbt
+[0m14:38:26.728619 [info ] [MainThread]: Using profiles.yml file at C:\Users\us\.dbt\profiles.yml
+[0m14:38:26.729617 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\us\real-estate-data-warehouse\dbt_project.yml
+[0m14:38:26.729617 [info ] [MainThread]: adapter type: snowflake
+[0m14:38:26.729617 [info ] [MainThread]: adapter version: 1.11.6
+[0m14:38:26.800381 [info ] [MainThread]: Configuration:
+[0m14:38:26.801380 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:38:26.801380 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m14:38:26.801380 [info ] [MainThread]: Required dependencies:
+[0m14:38:26.802379 [debug] [MainThread]: Executing "git --help"
+[0m14:38:26.826434 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:38:26.826434 [debug] [MainThread]: STDERR: "b''"
+[0m14:38:26.827469 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:38:26.827469 [info ] [MainThread]: Connection:
+[0m14:38:26.827469 [info ] [MainThread]:   account: pi44518.eu-west-3.aws
+[0m14:38:26.827469 [info ] [MainThread]:   user: FATIMAEZZAHRA
+[0m14:38:26.828434 [info ] [MainThread]:   database: REAL_ESTATE_DB
+[0m14:38:26.828434 [info ] [MainThread]:   warehouse: COMPTE_WH
+[0m14:38:26.828434 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m14:38:26.829433 [info ] [MainThread]:   schema: BRONZE
+[0m14:38:26.829433 [info ] [MainThread]:   authenticator: None
+[0m14:38:26.829433 [info ] [MainThread]:   oauth_client_id: None
+[0m14:38:26.830433 [info ] [MainThread]:   query_tag: None
+[0m14:38:26.830433 [info ] [MainThread]:   client_session_keep_alive: False
+[0m14:38:26.830433 [info ] [MainThread]:   host: None
+[0m14:38:26.831433 [info ] [MainThread]:   port: None
+[0m14:38:26.831433 [info ] [MainThread]:   proxy_host: None
+[0m14:38:26.831433 [info ] [MainThread]:   proxy_port: None
+[0m14:38:26.832432 [info ] [MainThread]:   protocol: None
+[0m14:38:26.832432 [info ] [MainThread]:   connect_retries: 1
+[0m14:38:26.832432 [info ] [MainThread]:   connect_timeout: None
+[0m14:38:26.832432 [info ] [MainThread]:   retry_on_database_errors: False
+[0m14:38:26.833663 [info ] [MainThread]:   retry_all: False
+[0m14:38:26.833663 [info ] [MainThread]:   insecure_mode: False
+[0m14:38:26.833663 [info ] [MainThread]:   reuse_connections: True
+[0m14:38:26.833663 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m14:38:26.834663 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m14:38:26.834663 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m14:38:26.976244 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m14:38:27.005036 [debug] [MainThread]: Using snowflake connection "debug"
+[0m14:38:27.006037 [debug] [MainThread]: On debug: select 1 as id
+[0m14:38:27.006037 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:38:28.321666 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.316 seconds
+[0m14:38:28.323675 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:38:28.324661 [info ] [MainThread]: [32mAll checks passed![0m
+[0m14:38:28.324661 [debug] [MainThread]: Command `dbt debug` succeeded at 14:38:28.324661 after 2.06 seconds
+[0m14:38:28.326187 [debug] [MainThread]: Connection 'debug' was left open.
+[0m14:38:28.326187 [debug] [MainThread]: On debug: Close
+[0m14:38:28.508778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002650AA35DC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002650A982C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002650D594E00>]}
+[0m14:38:28.509778 [debug] [MainThread]: Flushing usage events
+[0m14:38:29.370784 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:38:32.278348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F1EEE6A80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F1F6710A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F1F670860>]}
+
+
+============================== 14:38:32.281354 | 07211963-2f19-439f-8180-0c9e4f5285dd ==============================
+[0m14:38:32.281354 [info ] [MainThread]: Running with dbt=1.11.12
+[0m14:38:32.282354 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\us\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\us\\real-estate-data-warehouse\\logs'}
+[0m14:38:32.533042 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m14:38:32.533042 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m14:38:32.533042 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m14:38:32.689174 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '07211963-2f19-439f-8180-0c9e4f5285dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F214DB020>]}
+[0m14:38:32.729818 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '07211963-2f19-439f-8180-0c9e4f5285dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F225E4A70>]}
+[0m14:38:32.730826 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m14:38:32.882230 [debug] [MainThread]: checksum: f368f5348cf42803b94ef7fb8257ecf3bf9a9a16dd9c8c51fe5172f2dbeb457f, vars: {}, profile: , target: , version: 1.11.12
+[0m14:38:32.949433 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m14:38:32.950458 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '07211963-2f19-439f-8180-0c9e4f5285dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F22A211C0>]}
+[0m14:38:33.786000 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.real_estate.dim_date' (dbt/models\gold\dim_date.sql) depends on a node named 'listings_clean' which was not found
+[0m14:38:33.787005 [debug] [MainThread]: Command `dbt run` failed at 14:38:33.787005 after 1.61 seconds
+[0m14:38:33.787005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F1F840560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F2250BFE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024F22CAD7C0>]}
+[0m14:38:33.787005 [debug] [MainThread]: Flushing usage events
+[0m14:38:34.482221 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:40:51.601890 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA94D69F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA76368A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA7637B30>]}
+
+
+============================== 14:40:51.604891 | 28eb1ddf-3791-4510-87bc-ebbb41853fff ==============================
+[0m14:40:51.604891 [info ] [MainThread]: Running with dbt=1.11.12
+[0m14:40:51.604891 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\us\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\us\\real-estate-data-warehouse\\logs'}
+[0m14:40:51.855143 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m14:40:51.856126 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m14:40:51.856126 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m14:40:52.012004 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '28eb1ddf-3791-4510-87bc-ebbb41853fff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AAC799B20>]}
+[0m14:40:52.051021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '28eb1ddf-3791-4510-87bc-ebbb41853fff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AAB8E6540>]}
+[0m14:40:52.052006 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m14:40:52.199601 [debug] [MainThread]: checksum: f368f5348cf42803b94ef7fb8257ecf3bf9a9a16dd9c8c51fe5172f2dbeb457f, vars: {}, profile: , target: , version: 1.11.12
+[0m14:40:52.266929 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m14:40:52.267710 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '28eb1ddf-3791-4510-87bc-ebbb41853fff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AAD071100>]}
+[0m14:40:52.991260 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'silver_listings' in the 'models' section of file 'dbt/models\silver\silver_listings.yml'
+[0m14:40:53.075632 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.real_estate.unique_silver_listings_listing_id.c2492e2456' (dbt/models\silver\silver_listings.yml) depends on a node named 'silver_listings' in package '' which was not found
+[0m14:40:53.076624 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.real_estate.not_null_silver_listings_listing_id.dd0061bb06' (dbt/models\silver\silver_listings.yml) depends on a node named 'silver_listings' in package '' which was not found
+[0m14:40:53.076624 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.real_estate.not_null_silver_listings_price.db23cd5f63' (dbt/models\silver\silver_listings.yml) depends on a node named 'silver_listings' in package '' which was not found
+[0m14:40:53.077860 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.real_estate.not_null_silver_listings_surface_m2.0912bb7a31' (dbt/models\silver\silver_listings.yml) depends on a node named 'silver_listings' in package '' which was not found
+[0m14:40:53.077860 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.real_estate.not_null_silver_listings_listing_date.8cfdfe59c9' (dbt/models\silver\silver_listings.yml) depends on a node named 'silver_listings' in package '' which was not found
+[0m14:40:53.078857 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.real_estate.not_null_silver_listings_property_type.6fe01e42ac' (dbt/models\silver\silver_listings.yml) depends on a node named 'silver_listings' in package '' which was not found
+[0m14:40:53.151900 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '28eb1ddf-3791-4510-87bc-ebbb41853fff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AAD221850>]}
+[0m14:40:53.202014 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\us\real-estate-data-warehouse\target\manifest.json
+[0m14:40:53.204002 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\us\real-estate-data-warehouse\target\semantic_manifest.json
+[0m14:40:53.212942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '28eb1ddf-3791-4510-87bc-ebbb41853fff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AAD40E6C0>]}
+[0m14:40:53.212942 [info ] [MainThread]: Found 6 models, 1 test, 1 source, 538 macros
+[0m14:40:53.213943 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '28eb1ddf-3791-4510-87bc-ebbb41853fff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA752E570>]}
+[0m14:40:53.214943 [info ] [MainThread]: 
+[0m14:40:53.214943 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:40:53.215945 [info ] [MainThread]: 
+[0m14:40:53.215945 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m14:40:53.218943 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB'
+[0m14:40:53.226958 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB'
+[0m14:40:53.258122 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB"
+[0m14:40:53.258122 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB"
+[0m14:40:53.259167 [debug] [ThreadPool]: On list_REAL_ESTATE_DB: show terse schemas in database REAL_ESTATE_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB"} */
+[0m14:40:53.259167 [debug] [ThreadPool]: On list_REAL_ESTATE_DB: show terse schemas in database REAL_ESTATE_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB"} */
+[0m14:40:53.259167 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:40:53.260123 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:40:54.611353 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.351 seconds
+[0m14:40:54.613906 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.355 seconds
+[0m14:40:54.616882 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB_SILVER'
+[0m14:40:54.624898 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB_SILVER"
+[0m14:40:54.624898 [debug] [ThreadPool]: On list_REAL_ESTATE_DB_SILVER: show objects in REAL_ESTATE_DB.SILVER
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB_SILVER"} */;
+[0m14:40:54.625898 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:40:54.625898 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB_GOLD'
+[0m14:40:54.628898 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB_GOLD"
+[0m14:40:54.628898 [debug] [ThreadPool]: On list_REAL_ESTATE_DB_GOLD: show objects in REAL_ESTATE_DB.GOLD
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB_GOLD"} */;
+[0m14:40:54.629901 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:40:55.098216 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.473 seconds
+[0m14:40:56.014033 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 1.384 seconds
+[0m14:40:56.018029 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '28eb1ddf-3791-4510-87bc-ebbb41853fff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AAD3809E0>]}
+[0m14:40:56.070031 [debug] [Thread-2 (]: Began running node model.real_estate.listings_clean
+[0m14:40:56.071032 [info ] [Thread-2 (]: 1 of 6 START sql table model SILVER.listings_clean ............................. [RUN]
+[0m14:40:56.072028 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.real_estate.listings_clean'
+[0m14:40:56.072028 [debug] [Thread-2 (]: Began compiling node model.real_estate.listings_clean
+[0m14:40:56.079042 [debug] [Thread-2 (]: Writing injected SQL for node "model.real_estate.listings_clean"
+[0m14:40:56.080029 [debug] [Thread-2 (]: Began executing node model.real_estate.listings_clean
+[0m14:40:56.098543 [debug] [Thread-2 (]: Writing runtime sql for node "model.real_estate.listings_clean"
+[0m14:40:56.102634 [debug] [Thread-2 (]: Using snowflake connection "model.real_estate.listings_clean"
+[0m14:40:56.102634 [debug] [Thread-2 (]: On model.real_estate.listings_clean: create or replace transient table REAL_ESTATE_DB.SILVER.listings_clean
+    
+    
+    
+    as (
+
+WITH source AS (
+
+    SELECT *
+    FROM REAL_ESTATE_DB.BRONZE.RAW_LISTINGS
+
+),
+cleaned AS (
+
+    SELECT
+
+        "listing_id" AS listing_id,
+
+        NULLIF(INITCAP(TRIM("property_type")), '') AS property_type,
+        NULLIF(INITCAP(TRIM("country")), '') AS country,
+        NULLIF(INITCAP(TRIM("city")), '') AS city,
+        NULLIF(INITCAP(TRIM("neighborhood")), '') AS neighborhood,
+
+        TRY_TO_NUMBER(NULLIF(TRIM("surface_m2"), '')) AS surface_m2,
+        TRY_TO_NUMBER(NULLIF(TRIM("num_rooms"), '')) AS num_rooms,
+        TRY_TO_NUMBER(NULLIF(TRIM("num_bathrooms"), '')) AS num_bathrooms,
+        TRY_TO_NUMBER(NULLIF(TRIM("floor"), '')) AS floor,
+        TRY_TO_NUMBER(NULLIF(TRIM("year_built"), '')) AS year_built,
+
+        TRY_TO_NUMBER(
+            REGEXP_REPLACE("price", '[^0-9.]', '')
+        ) AS price,
+
+        COALESCE(
+            TRY_TO_DATE("listing_date",'YYYY-MM-DD'),
+            TRY_TO_DATE("listing_date",'DD/MM/YYYY'),
+            TRY_TO_DATE("listing_date",'MM/DD/YYYY')
+        ) AS listing_date,
+
+        NULLIF(INITCAP(TRIM("condition")), '') AS property_condition,
+        NULLIF(INITCAP(TRIM("heating_type")), '') AS heating_type,
+
+        CASE
+            WHEN LOWER(TRIM("parking")) IN ('yes','y','true','1') THEN 'Yes'
+            WHEN LOWER(TRIM("parking")) IN ('no','n','false','0') THEN 'No'
+            ELSE NULL
+        END AS parking,
+
+        NULLIF(UPPER(TRIM("energy_rating")), '') AS energy_rating,
+
+        ROW_NUMBER() OVER (
+            PARTITION BY "listing_id"
+            ORDER BY
+                COALESCE(
+                    TRY_TO_DATE("listing_date",'YYYY-MM-DD'),
+                    TRY_TO_DATE("listing_date",'DD/MM/YYYY'),
+                    TRY_TO_DATE("listing_date",'MM/DD/YYYY')
+                ) DESC
+        ) AS rn
+
+    FROM source
+
+),
+
+stats AS (
+
+    SELECT
+
+        MEDIAN(surface_m2) AS median_surface_m2,
+        MEDIAN(num_rooms) AS median_num_rooms,
+        MEDIAN(num_bathrooms) AS median_num_bathrooms,
+        MEDIAN(floor) AS median_floor,
+        MEDIAN(year_built) AS median_year_built,
+
+        MODE(country) AS mode_country,
+        MODE(neighborhood) AS mode_neighborhood,
+        MODE(property_condition) AS mode_property_condition,
+        MODE(heating_type) AS mode_heating_type,
+        MODE(parking) AS mode_parking,
+        MODE(energy_rating) AS mode_energy_rating,
+        MODE(listing_date) AS mode_listing_date
+
+    FROM cleaned
+
+    WHERE rn = 1
+
+)
+
+SELECT
+
+    c.listing_id,
+    c.property_type,
+
+    COALESCE(c.country, s.mode_country) AS country,
+    c.city,
+    COALESCE(c.neighborhood, s.mode_neighborhood) AS neighborhood,
+
+    COALESCE(c.surface_m2, s.median_surface_m2) AS surface_m2,
+    COALESCE(c.num_rooms, s.median_num_rooms) AS num_rooms,
+    COALESCE(c.num_bathrooms, s.median_num_bathrooms) AS num_bathrooms,
+    COALESCE(c.floor, s.median_floor) AS floor,
+    COALESCE(c.year_built, s.median_year_built) AS year_built,
+
+    c.price,
+
+    COALESCE(c.listing_date, s.mode_listing_date) AS listing_date,
+
+    COALESCE(c.property_condition, s.mode_property_condition) AS property_condition,
+    COALESCE(c.heating_type, s.mode_heating_type) AS heating_type,
+    COALESCE(c.parking, s.mode_parking) AS parking,
+    COALESCE(c.energy_rating, s.mode_energy_rating) AS energy_rating
+
+FROM cleaned c
+CROSS JOIN stats s
+
+WHERE c.rn = 1
+  AND c.price BETWEEN 10000 AND 100000000
+  AND COALESCE(c.surface_m2, s.median_surface_m2) BETWEEN 10 AND 5000
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.listings_clean"} */;
+[0m14:40:56.103543 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m14:40:57.000336 [debug] [Thread-2 (]: Snowflake adapter: Snowflake query id: 01c570b4-0001-e26c-0002-9302000ed446
+[0m14:40:57.001333 [debug] [Thread-2 (]: Snowflake adapter: Snowflake error: 000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+
+[0m14:40:57.004344 [debug] [Thread-2 (]: Database Error in model listings_clean (dbt/models\silver\listings_clean.sql)
+  000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+  
+  compiled code at target\run\real_estate\dbt/models\silver\listings_clean.sql
+[0m14:40:57.006327 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '28eb1ddf-3791-4510-87bc-ebbb41853fff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA990CD70>]}
+[0m14:40:57.006327 [error] [Thread-2 (]: 1 of 6 ERROR creating sql table model SILVER.listings_clean .................... [[31mERROR[0m in 0.93s]
+[0m14:40:57.007327 [debug] [Thread-2 (]: Finished running node model.real_estate.listings_clean
+[0m14:40:57.008329 [debug] [Thread-8 (]: Marking all children of 'model.real_estate.listings_clean' to be skipped because of status 'error'.  Reason: Database Error in model listings_clean (dbt/models\silver\listings_clean.sql)
+  000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+  
+  compiled code at target\run\real_estate\dbt/models\silver\listings_clean.sql.
+[0m14:40:57.009327 [debug] [Thread-4 (]: Began running node model.real_estate.dim_date
+[0m14:40:57.009327 [debug] [Thread-5 (]: Began running node model.real_estate.dim_energy
+[0m14:40:57.010328 [debug] [Thread-3 (]: Began running node model.real_estate.dim_location
+[0m14:40:57.010328 [debug] [Thread-2 (]: Began running node model.real_estate.dim_property
+[0m14:40:57.009327 [info ] [Thread-4 (]: 2 of 6 SKIP relation GOLD.dim_date ............................................. [[33mSKIP[0m]
+[0m14:40:57.010328 [info ] [Thread-5 (]: 3 of 6 SKIP relation GOLD.dim_energy ........................................... [[33mSKIP[0m]
+[0m14:40:57.011326 [info ] [Thread-3 (]: 4 of 6 SKIP relation GOLD.dim_location ......................................... [[33mSKIP[0m]
+[0m14:40:57.011326 [debug] [Thread-4 (]: Finished running node model.real_estate.dim_date
+[0m14:40:57.011326 [debug] [Thread-5 (]: Finished running node model.real_estate.dim_energy
+[0m14:40:57.011326 [info ] [Thread-2 (]: 5 of 6 SKIP relation GOLD.dim_property ......................................... [[33mSKIP[0m]
+[0m14:40:57.012327 [debug] [Thread-3 (]: Finished running node model.real_estate.dim_location
+[0m14:40:57.012327 [debug] [Thread-2 (]: Finished running node model.real_estate.dim_property
+[0m14:40:57.012327 [debug] [Thread-4 (]: Began running node model.real_estate.fact_listings
+[0m14:40:57.013326 [info ] [Thread-4 (]: 6 of 6 SKIP relation GOLD.fact_listings ........................................ [[33mSKIP[0m]
+[0m14:40:57.013326 [debug] [Thread-4 (]: Finished running node model.real_estate.fact_listings
+[0m14:40:57.014353 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:40:57.014353 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB' was left open.
+[0m14:40:57.015357 [debug] [MainThread]: On list_REAL_ESTATE_DB: Close
+[0m14:40:57.347031 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB' was left open.
+[0m14:40:57.348034 [debug] [MainThread]: On list_REAL_ESTATE_DB: Close
+[0m14:40:57.579354 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB_SILVER' was left open.
+[0m14:40:57.580354 [debug] [MainThread]: On list_REAL_ESTATE_DB_SILVER: Close
+[0m14:40:57.764859 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB_GOLD' was left open.
+[0m14:40:57.764859 [debug] [MainThread]: On list_REAL_ESTATE_DB_GOLD: Close
+[0m14:40:57.977980 [debug] [MainThread]: Connection 'model.real_estate.listings_clean' was left open.
+[0m14:40:57.978982 [debug] [MainThread]: On model.real_estate.listings_clean: Close
+[0m14:40:58.158535 [info ] [MainThread]: 
+[0m14:40:58.159506 [info ] [MainThread]: Finished running 6 table models in 0 hours 0 minutes and 4.94 seconds (4.94s).
+[0m14:40:58.160436 [debug] [MainThread]: Command end result
+[0m14:40:58.182428 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\us\real-estate-data-warehouse\target\manifest.json
+[0m14:40:58.183429 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\us\real-estate-data-warehouse\target\semantic_manifest.json
+[0m14:40:58.187434 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\us\real-estate-data-warehouse\target\run_results.json
+[0m14:40:58.188433 [info ] [MainThread]: 
+[0m14:40:58.188433 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m14:40:58.189437 [info ] [MainThread]: 
+[0m14:40:58.189437 [error] [MainThread]: [31mFailure in model listings_clean (dbt/models\silver\listings_clean.sql)[0m
+[0m14:40:58.189437 [error] [MainThread]:   Database Error in model listings_clean (dbt/models\silver\listings_clean.sql)
+  000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+  
+  compiled code at target\run\real_estate\dbt/models\silver\listings_clean.sql
+[0m14:40:58.189437 [info ] [MainThread]: 
+[0m14:40:58.190433 [info ] [MainThread]:   compiled code at target\compiled\real_estate\dbt/models\silver\listings_clean.sql
+[0m14:40:58.190433 [info ] [MainThread]: 
+[0m14:40:58.190433 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=5 NO-OP=0 TOTAL=6
+[0m14:40:58.191433 [debug] [MainThread]: Command `dbt run` failed at 14:40:58.191433 after 6.67 seconds
+[0m14:40:58.191433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AAA1BF9B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA7637B30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027AA76368A0>]}
+[0m14:40:58.191433 [debug] [MainThread]: Flushing usage events
+[0m14:40:58.964803 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:48:52.167413 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001953AD3A450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001953825ECF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001953AB81DC0>]}
+
+
+============================== 14:48:52.170416 | ee3990d4-8963-4358-ba44-e294bd659740 ==============================
+[0m14:48:52.170416 [info ] [MainThread]: Running with dbt=1.11.12
+[0m14:48:52.171431 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\us\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\us\\real-estate-data-warehouse\\logs'}
+[0m14:48:52.429848 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m14:48:52.430830 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m14:48:52.430830 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m14:48:52.585803 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ee3990d4-8963-4358-ba44-e294bd659740', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001953B1A97C0>]}
+[0m14:48:52.628799 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ee3990d4-8963-4358-ba44-e294bd659740', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001953E3F7830>]}
+[0m14:48:52.629782 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m14:48:52.789823 [debug] [MainThread]: checksum: f368f5348cf42803b94ef7fb8257ecf3bf9a9a16dd9c8c51fe5172f2dbeb457f, vars: {}, profile: , target: , version: 1.11.12
+[0m14:48:52.899628 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:48:52.899628 [debug] [MainThread]: Nothing changed, skipping partial parsing.
+[0m14:48:52.899628 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:48:52.928840 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ee3990d4-8963-4358-ba44-e294bd659740', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001953E52B5F0>]}
+[0m14:48:52.989500 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\us\real-estate-data-warehouse\target\manifest.json
+[0m14:48:52.991493 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\us\real-estate-data-warehouse\target\semantic_manifest.json
+[0m14:48:52.999495 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ee3990d4-8963-4358-ba44-e294bd659740', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001953E75EB10>]}
+[0m14:48:53.000494 [info ] [MainThread]: Found 6 models, 1 test, 1 source, 538 macros
+[0m14:48:53.000494 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ee3990d4-8963-4358-ba44-e294bd659740', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001953B850E90>]}
+[0m14:48:53.001496 [info ] [MainThread]: 
+[0m14:48:53.002518 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:48:53.002518 [info ] [MainThread]: 
+[0m14:48:53.002518 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m14:48:53.005513 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB'
+[0m14:48:53.015501 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB'
+[0m14:48:53.050528 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB"
+[0m14:48:53.050528 [debug] [ThreadPool]: On list_REAL_ESTATE_DB: show terse schemas in database REAL_ESTATE_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB"} */
+[0m14:48:53.051524 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB"
+[0m14:48:53.052057 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:48:53.052057 [debug] [ThreadPool]: On list_REAL_ESTATE_DB: show terse schemas in database REAL_ESTATE_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB"} */
+[0m14:48:53.052057 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:48:54.355066 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.302 seconds
+[0m14:48:54.381081 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.329 seconds
+[0m14:48:54.386078 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB_GOLD'
+[0m14:48:54.397077 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB_GOLD"
+[0m14:48:54.397077 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB_SILVER'
+[0m14:48:54.397077 [debug] [ThreadPool]: On list_REAL_ESTATE_DB_GOLD: show objects in REAL_ESTATE_DB.GOLD
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB_GOLD"} */;
+[0m14:48:54.399074 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB_SILVER"
+[0m14:48:54.399074 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:48:54.399074 [debug] [ThreadPool]: On list_REAL_ESTATE_DB_SILVER: show objects in REAL_ESTATE_DB.SILVER
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB_SILVER"} */;
+[0m14:48:54.400097 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:48:54.845325 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.445 seconds
+[0m14:48:55.492983 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 1.094 seconds
+[0m14:48:55.494997 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ee3990d4-8963-4358-ba44-e294bd659740', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001953DF8FAA0>]}
+[0m14:48:55.499088 [debug] [Thread-2 (]: Began running node model.real_estate.listings_clean
+[0m14:48:55.499088 [info ] [Thread-2 (]: 1 of 6 START sql table model SILVER.listings_clean ............................. [RUN]
+[0m14:48:55.500088 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.real_estate.listings_clean'
+[0m14:48:55.500088 [debug] [Thread-2 (]: Began compiling node model.real_estate.listings_clean
+[0m14:48:55.505105 [debug] [Thread-2 (]: Writing injected SQL for node "model.real_estate.listings_clean"
+[0m14:48:55.506111 [debug] [Thread-2 (]: Began executing node model.real_estate.listings_clean
+[0m14:48:55.526688 [debug] [Thread-2 (]: Writing runtime sql for node "model.real_estate.listings_clean"
+[0m14:48:55.529671 [debug] [Thread-2 (]: Using snowflake connection "model.real_estate.listings_clean"
+[0m14:48:55.529671 [debug] [Thread-2 (]: On model.real_estate.listings_clean: create or replace transient table REAL_ESTATE_DB.SILVER.listings_clean
+    
+    
+    
+    as (
+
+WITH source AS (
+
+    SELECT *
+    FROM REAL_ESTATE_DB.BRONZE.RAW_LISTINGS
+
+),
+cleaned AS (
+
+    SELECT
+
+        "listing_id" AS listing_id,
+
+        NULLIF(INITCAP(TRIM("property_type")), '') AS property_type,
+        NULLIF(INITCAP(TRIM("country")), '') AS country,
+        NULLIF(INITCAP(TRIM("city")), '') AS city,
+        NULLIF(INITCAP(TRIM("neighborhood")), '') AS neighborhood,
+
+        TRY_TO_NUMBER(NULLIF(TRIM("surface_m2"), '')) AS surface_m2,
+        TRY_TO_NUMBER(NULLIF(TRIM("num_rooms"), '')) AS num_rooms,
+        TRY_TO_NUMBER(NULLIF(TRIM("num_bathrooms"), '')) AS num_bathrooms,
+        TRY_TO_NUMBER(NULLIF(TRIM("floor"), '')) AS floor,
+        TRY_TO_NUMBER(NULLIF(TRIM("year_built"), '')) AS year_built,
+
+        TRY_TO_NUMBER(
+            REGEXP_REPLACE("price", '[^0-9.]', '')
+        ) AS price,
+
+        COALESCE(
+            TRY_TO_DATE("listing_date",'YYYY-MM-DD'),
+            TRY_TO_DATE("listing_date",'DD/MM/YYYY'),
+            TRY_TO_DATE("listing_date",'MM/DD/YYYY')
+        ) AS listing_date,
+
+        NULLIF(INITCAP(TRIM("condition")), '') AS property_condition,
+        NULLIF(INITCAP(TRIM("heating_type")), '') AS heating_type,
+
+        CASE
+            WHEN LOWER(TRIM("parking")) IN ('yes','y','true','1') THEN 'Yes'
+            WHEN LOWER(TRIM("parking")) IN ('no','n','false','0') THEN 'No'
+            ELSE NULL
+        END AS parking,
+
+        NULLIF(UPPER(TRIM("energy_rating")), '') AS energy_rating,
+
+        ROW_NUMBER() OVER (
+            PARTITION BY "listing_id"
+            ORDER BY
+                COALESCE(
+                    TRY_TO_DATE("listing_date",'YYYY-MM-DD'),
+                    TRY_TO_DATE("listing_date",'DD/MM/YYYY'),
+                    TRY_TO_DATE("listing_date",'MM/DD/YYYY')
+                ) DESC
+        ) AS rn
+
+    FROM source
+
+),
+
+stats AS (
+
+    SELECT
+
+        MEDIAN(surface_m2) AS median_surface_m2,
+        MEDIAN(num_rooms) AS median_num_rooms,
+        MEDIAN(num_bathrooms) AS median_num_bathrooms,
+        MEDIAN(floor) AS median_floor,
+        MEDIAN(year_built) AS median_year_built,
+
+        MODE(country) AS mode_country,
+        MODE(neighborhood) AS mode_neighborhood,
+        MODE(property_condition) AS mode_property_condition,
+        MODE(heating_type) AS mode_heating_type,
+        MODE(parking) AS mode_parking,
+        MODE(energy_rating) AS mode_energy_rating,
+        MODE(listing_date) AS mode_listing_date
+
+    FROM cleaned
+
+    WHERE rn = 1
+
+)
+
+SELECT
+
+    c.listing_id,
+    c.property_type,
+
+    COALESCE(c.country, s.mode_country) AS country,
+    c.city,
+    COALESCE(c.neighborhood, s.mode_neighborhood) AS neighborhood,
+
+    COALESCE(c.surface_m2, s.median_surface_m2) AS surface_m2,
+    COALESCE(c.num_rooms, s.median_num_rooms) AS num_rooms,
+    COALESCE(c.num_bathrooms, s.median_num_bathrooms) AS num_bathrooms,
+    COALESCE(c.floor, s.median_floor) AS floor,
+    COALESCE(c.year_built, s.median_year_built) AS year_built,
+
+    c.price,
+
+    COALESCE(c.listing_date, s.mode_listing_date) AS listing_date,
+
+    COALESCE(c.property_condition, s.mode_property_condition) AS property_condition,
+    COALESCE(c.heating_type, s.mode_heating_type) AS heating_type,
+    COALESCE(c.parking, s.mode_parking) AS parking,
+    COALESCE(c.energy_rating, s.mode_energy_rating) AS energy_rating
+
+FROM cleaned c
+CROSS JOIN stats s
+
+WHERE c.rn = 1
+  AND c.price BETWEEN 10000 AND 100000000
+  AND COALESCE(c.surface_m2, s.median_surface_m2) BETWEEN 10 AND 5000
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.listings_clean"} */;
+[0m14:48:55.530671 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m14:48:56.244948 [debug] [Thread-2 (]: Snowflake adapter: Snowflake query id: 01c570bc-0001-e26e-0002-9302000ebb72
+[0m14:48:56.245946 [debug] [Thread-2 (]: Snowflake adapter: Snowflake error: 000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+
+[0m14:48:56.249927 [debug] [Thread-2 (]: Database Error in model listings_clean (dbt/models\silver\listings_clean.sql)
+  000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+  
+  compiled code at target\run\real_estate\dbt/models\silver\listings_clean.sql
+[0m14:48:56.252942 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'ee3990d4-8963-4358-ba44-e294bd659740', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001953B16C650>]}
+[0m14:48:56.253935 [error] [Thread-2 (]: 1 of 6 ERROR creating sql table model SILVER.listings_clean .................... [[31mERROR[0m in 0.75s]
+[0m14:48:56.253935 [debug] [Thread-2 (]: Finished running node model.real_estate.listings_clean
+[0m14:48:56.254932 [debug] [Thread-8 (]: Marking all children of 'model.real_estate.listings_clean' to be skipped because of status 'error'.  Reason: Database Error in model listings_clean (dbt/models\silver\listings_clean.sql)
+  000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+  
+  compiled code at target\run\real_estate\dbt/models\silver\listings_clean.sql.
+[0m14:48:56.255932 [debug] [Thread-4 (]: Began running node model.real_estate.dim_date
+[0m14:48:56.256928 [debug] [Thread-5 (]: Began running node model.real_estate.dim_energy
+[0m14:48:56.257929 [debug] [Thread-3 (]: Began running node model.real_estate.dim_location
+[0m14:48:56.257929 [debug] [Thread-2 (]: Began running node model.real_estate.dim_property
+[0m14:48:56.256928 [info ] [Thread-4 (]: 2 of 6 SKIP relation GOLD.dim_date ............................................. [[33mSKIP[0m]
+[0m14:48:56.257929 [info ] [Thread-5 (]: 3 of 6 SKIP relation GOLD.dim_energy ........................................... [[33mSKIP[0m]
+[0m14:48:56.257929 [info ] [Thread-3 (]: 4 of 6 SKIP relation GOLD.dim_location ......................................... [[33mSKIP[0m]
+[0m14:48:56.259434 [debug] [Thread-4 (]: Finished running node model.real_estate.dim_date
+[0m14:48:56.259434 [info ] [Thread-2 (]: 5 of 6 SKIP relation GOLD.dim_property ......................................... [[33mSKIP[0m]
+[0m14:48:56.259434 [debug] [Thread-5 (]: Finished running node model.real_estate.dim_energy
+[0m14:48:56.260440 [debug] [Thread-3 (]: Finished running node model.real_estate.dim_location
+[0m14:48:56.261445 [debug] [Thread-2 (]: Finished running node model.real_estate.dim_property
+[0m14:48:56.261445 [debug] [Thread-4 (]: Began running node model.real_estate.fact_listings
+[0m14:48:56.261445 [info ] [Thread-4 (]: 6 of 6 SKIP relation GOLD.fact_listings ........................................ [[33mSKIP[0m]
+[0m14:48:56.262456 [debug] [Thread-4 (]: Finished running node model.real_estate.fact_listings
+[0m14:48:56.263439 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:48:56.263439 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB' was left open.
+[0m14:48:56.263439 [debug] [MainThread]: On list_REAL_ESTATE_DB: Close
+[0m14:48:56.431912 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB' was left open.
+[0m14:48:56.432898 [debug] [MainThread]: On list_REAL_ESTATE_DB: Close
+[0m14:48:56.712932 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB_GOLD' was left open.
+[0m14:48:56.713932 [debug] [MainThread]: On list_REAL_ESTATE_DB_GOLD: Close
+[0m14:48:56.878954 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB_SILVER' was left open.
+[0m14:48:56.879945 [debug] [MainThread]: On list_REAL_ESTATE_DB_SILVER: Close
+[0m14:48:57.043957 [debug] [MainThread]: Connection 'model.real_estate.listings_clean' was left open.
+[0m14:48:57.043957 [debug] [MainThread]: On model.real_estate.listings_clean: Close
+[0m14:48:57.186507 [info ] [MainThread]: 
+[0m14:48:57.187015 [info ] [MainThread]: Finished running 6 table models in 0 hours 0 minutes and 4.18 seconds (4.18s).
+[0m14:48:57.188053 [debug] [MainThread]: Command end result
+[0m14:48:57.206038 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\us\real-estate-data-warehouse\target\manifest.json
+[0m14:48:57.208045 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\us\real-estate-data-warehouse\target\semantic_manifest.json
+[0m14:48:57.212040 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\us\real-estate-data-warehouse\target\run_results.json
+[0m14:48:57.213025 [info ] [MainThread]: 
+[0m14:48:57.213025 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m14:48:57.214019 [info ] [MainThread]: 
+[0m14:48:57.214019 [error] [MainThread]: [31mFailure in model listings_clean (dbt/models\silver\listings_clean.sql)[0m
+[0m14:48:57.215051 [error] [MainThread]:   Database Error in model listings_clean (dbt/models\silver\listings_clean.sql)
+  000606 (57P03): No active warehouse selected in the current session.  Select an active warehouse with the 'use warehouse' command.
+  
+  compiled code at target\run\real_estate\dbt/models\silver\listings_clean.sql
+[0m14:48:57.215051 [info ] [MainThread]: 
+[0m14:48:57.215051 [info ] [MainThread]:   compiled code at target\compiled\real_estate\dbt/models\silver\listings_clean.sql
+[0m14:48:57.216022 [info ] [MainThread]: 
+[0m14:48:57.216022 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=1 SKIP=5 NO-OP=0 TOTAL=6
+[0m14:48:57.216022 [debug] [MainThread]: Command `dbt run` failed at 14:48:57.216022 after 5.23 seconds
+[0m14:48:57.217020 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001953820EDB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001953BCCC6B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001953B571130>]}
+[0m14:48:57.217020 [debug] [MainThread]: Flushing usage events
+[0m14:48:58.082995 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:51:02.429744 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210BF36CCE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210BF43E660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210BD71E9F0>]}
+
+
+============================== 14:51:02.433757 | a2746f9c-519e-4a9d-9a10-bf39f48b2066 ==============================
+[0m14:51:02.433757 [info ] [MainThread]: Running with dbt=1.11.12
+[0m14:51:02.433757 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\us\\.dbt', 'invocation_command': 'dbt run', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\us\\real-estate-data-warehouse\\logs'}
+[0m14:51:02.697318 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m14:51:02.698322 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m14:51:02.698322 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m14:51:02.855198 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a2746f9c-519e-4a9d-9a10-bf39f48b2066', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210C251C410>]}
+[0m14:51:02.902205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a2746f9c-519e-4a9d-9a10-bf39f48b2066', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210C251C410>]}
+[0m14:51:02.903205 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m14:51:03.053461 [debug] [MainThread]: checksum: f368f5348cf42803b94ef7fb8257ecf3bf9a9a16dd9c8c51fe5172f2dbeb457f, vars: {}, profile: , target: , version: 1.11.12
+[0m14:51:03.123473 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m14:51:03.124490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a2746f9c-519e-4a9d-9a10-bf39f48b2066', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210BFA909B0>]}
+[0m14:51:03.884538 [warn ] [MainThread]: [[33mWARNING[0m]: Did not find matching node for patch with name 'silver_listings' in the 'models' section of file 'dbt/models\silver\silver_listings.yml'
+[0m14:51:03.967519 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.real_estate.unique_silver_listings_listing_id.c2492e2456' (dbt/models\silver\silver_listings.yml) depends on a node named 'silver_listings' in package '' which was not found
+[0m14:51:03.968519 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.real_estate.not_null_silver_listings_listing_id.dd0061bb06' (dbt/models\silver\silver_listings.yml) depends on a node named 'silver_listings' in package '' which was not found
+[0m14:51:03.968519 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.real_estate.not_null_silver_listings_price.db23cd5f63' (dbt/models\silver\silver_listings.yml) depends on a node named 'silver_listings' in package '' which was not found
+[0m14:51:03.969519 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.real_estate.not_null_silver_listings_surface_m2.0912bb7a31' (dbt/models\silver\silver_listings.yml) depends on a node named 'silver_listings' in package '' which was not found
+[0m14:51:03.969519 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.real_estate.not_null_silver_listings_listing_date.8cfdfe59c9' (dbt/models\silver\silver_listings.yml) depends on a node named 'silver_listings' in package '' which was not found
+[0m14:51:03.969519 [warn ] [MainThread]: [[33mWARNING[0m]: Test 'test.real_estate.not_null_silver_listings_property_type.6fe01e42ac' (dbt/models\silver\silver_listings.yml) depends on a node named 'silver_listings' in package '' which was not found
+[0m14:51:04.034423 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a2746f9c-519e-4a9d-9a10-bf39f48b2066', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210C2DA56A0>]}
+[0m14:51:04.088422 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\us\real-estate-data-warehouse\target\manifest.json
+[0m14:51:04.090407 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\us\real-estate-data-warehouse\target\semantic_manifest.json
+[0m14:51:04.099039 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a2746f9c-519e-4a9d-9a10-bf39f48b2066', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210C2E09B20>]}
+[0m14:51:04.099039 [info ] [MainThread]: Found 6 models, 1 test, 1 source, 538 macros
+[0m14:51:04.100043 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a2746f9c-519e-4a9d-9a10-bf39f48b2066', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210C2C00BC0>]}
+[0m14:51:04.101066 [info ] [MainThread]: 
+[0m14:51:04.101066 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:51:04.102044 [info ] [MainThread]: 
+[0m14:51:04.102044 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m14:51:04.105044 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB'
+[0m14:51:04.115555 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB'
+[0m14:51:04.145565 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB"
+[0m14:51:04.145565 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB"
+[0m14:51:04.146569 [debug] [ThreadPool]: On list_REAL_ESTATE_DB: show terse schemas in database REAL_ESTATE_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB"} */
+[0m14:51:04.146569 [debug] [ThreadPool]: On list_REAL_ESTATE_DB: show terse schemas in database REAL_ESTATE_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB"} */
+[0m14:51:04.146569 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:51:04.146569 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:51:06.487781 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 2.340 seconds
+[0m14:51:07.153453 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 3.007 seconds
+[0m14:51:07.158280 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB_GOLD'
+[0m14:51:07.170275 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB_GOLD"
+[0m14:51:07.170275 [debug] [ThreadPool]: On list_REAL_ESTATE_DB_GOLD: show objects in REAL_ESTATE_DB.GOLD
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB_GOLD"} */;
+[0m14:51:07.170275 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB_SILVER'
+[0m14:51:07.170275 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:51:07.172274 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB_SILVER"
+[0m14:51:07.172274 [debug] [ThreadPool]: On list_REAL_ESTATE_DB_SILVER: show objects in REAL_ESTATE_DB.SILVER
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB_SILVER"} */;
+[0m14:51:07.173382 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:51:07.833126 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 0.660 seconds
+[0m14:51:08.454373 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 1.284 seconds
+[0m14:51:08.458376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a2746f9c-519e-4a9d-9a10-bf39f48b2066', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210C31815E0>]}
+[0m14:51:08.462888 [debug] [Thread-2 (]: Began running node model.real_estate.listings_clean
+[0m14:51:08.463888 [info ] [Thread-2 (]: 1 of 6 START sql table model SILVER.listings_clean ............................. [RUN]
+[0m14:51:08.463888 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.real_estate.listings_clean'
+[0m14:51:08.464889 [debug] [Thread-2 (]: Began compiling node model.real_estate.listings_clean
+[0m14:51:08.469886 [debug] [Thread-2 (]: Writing injected SQL for node "model.real_estate.listings_clean"
+[0m14:51:08.470887 [debug] [Thread-2 (]: Began executing node model.real_estate.listings_clean
+[0m14:51:08.491888 [debug] [Thread-2 (]: Writing runtime sql for node "model.real_estate.listings_clean"
+[0m14:51:08.493885 [debug] [Thread-2 (]: Using snowflake connection "model.real_estate.listings_clean"
+[0m14:51:08.493885 [debug] [Thread-2 (]: On model.real_estate.listings_clean: create or replace transient table REAL_ESTATE_DB.SILVER.listings_clean
+    
+    
+    
+    as (
+
+WITH source AS (
+
+    SELECT *
+    FROM REAL_ESTATE_DB.BRONZE.RAW_LISTINGS
+
+),
+cleaned AS (
+
+    SELECT
+
+        "listing_id" AS listing_id,
+
+        NULLIF(INITCAP(TRIM("property_type")), '') AS property_type,
+        NULLIF(INITCAP(TRIM("country")), '') AS country,
+        NULLIF(INITCAP(TRIM("city")), '') AS city,
+        NULLIF(INITCAP(TRIM("neighborhood")), '') AS neighborhood,
+
+        TRY_TO_NUMBER(NULLIF(TRIM("surface_m2"), '')) AS surface_m2,
+        TRY_TO_NUMBER(NULLIF(TRIM("num_rooms"), '')) AS num_rooms,
+        TRY_TO_NUMBER(NULLIF(TRIM("num_bathrooms"), '')) AS num_bathrooms,
+        TRY_TO_NUMBER(NULLIF(TRIM("floor"), '')) AS floor,
+        TRY_TO_NUMBER(NULLIF(TRIM("year_built"), '')) AS year_built,
+
+        TRY_TO_NUMBER(
+            REGEXP_REPLACE("price", '[^0-9.]', '')
+        ) AS price,
+
+        COALESCE(
+            TRY_TO_DATE("listing_date",'YYYY-MM-DD'),
+            TRY_TO_DATE("listing_date",'DD/MM/YYYY'),
+            TRY_TO_DATE("listing_date",'MM/DD/YYYY')
+        ) AS listing_date,
+
+        NULLIF(INITCAP(TRIM("condition")), '') AS property_condition,
+        NULLIF(INITCAP(TRIM("heating_type")), '') AS heating_type,
+
+        CASE
+            WHEN LOWER(TRIM("parking")) IN ('yes','y','true','1') THEN 'Yes'
+            WHEN LOWER(TRIM("parking")) IN ('no','n','false','0') THEN 'No'
+            ELSE NULL
+        END AS parking,
+
+        NULLIF(UPPER(TRIM("energy_rating")), '') AS energy_rating,
+
+        ROW_NUMBER() OVER (
+            PARTITION BY "listing_id"
+            ORDER BY
+                COALESCE(
+                    TRY_TO_DATE("listing_date",'YYYY-MM-DD'),
+                    TRY_TO_DATE("listing_date",'DD/MM/YYYY'),
+                    TRY_TO_DATE("listing_date",'MM/DD/YYYY')
+                ) DESC
+        ) AS rn
+
+    FROM source
+
+),
+
+stats AS (
+
+    SELECT
+
+        MEDIAN(surface_m2) AS median_surface_m2,
+        MEDIAN(num_rooms) AS median_num_rooms,
+        MEDIAN(num_bathrooms) AS median_num_bathrooms,
+        MEDIAN(floor) AS median_floor,
+        MEDIAN(year_built) AS median_year_built,
+
+        MODE(country) AS mode_country,
+        MODE(neighborhood) AS mode_neighborhood,
+        MODE(property_condition) AS mode_property_condition,
+        MODE(heating_type) AS mode_heating_type,
+        MODE(parking) AS mode_parking,
+        MODE(energy_rating) AS mode_energy_rating,
+        MODE(listing_date) AS mode_listing_date
+
+    FROM cleaned
+
+    WHERE rn = 1
+
+)
+
+SELECT
+
+    c.listing_id,
+    c.property_type,
+
+    COALESCE(c.country, s.mode_country) AS country,
+    c.city,
+    COALESCE(c.neighborhood, s.mode_neighborhood) AS neighborhood,
+
+    COALESCE(c.surface_m2, s.median_surface_m2) AS surface_m2,
+    COALESCE(c.num_rooms, s.median_num_rooms) AS num_rooms,
+    COALESCE(c.num_bathrooms, s.median_num_bathrooms) AS num_bathrooms,
+    COALESCE(c.floor, s.median_floor) AS floor,
+    COALESCE(c.year_built, s.median_year_built) AS year_built,
+
+    c.price,
+
+    COALESCE(c.listing_date, s.mode_listing_date) AS listing_date,
+
+    COALESCE(c.property_condition, s.mode_property_condition) AS property_condition,
+    COALESCE(c.heating_type, s.mode_heating_type) AS heating_type,
+    COALESCE(c.parking, s.mode_parking) AS parking,
+    COALESCE(c.energy_rating, s.mode_energy_rating) AS energy_rating
+
+FROM cleaned c
+CROSS JOIN stats s
+
+WHERE c.rn = 1
+  AND c.price BETWEEN 10000 AND 100000000
+  AND COALESCE(c.surface_m2, s.median_surface_m2) BETWEEN 10 AND 5000
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.listings_clean"} */;
+[0m14:51:08.494887 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m14:51:09.880830 [debug] [Thread-2 (]: SQL status: SUCCESS 1903 in 1.386 seconds
+[0m14:51:09.896847 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a2746f9c-519e-4a9d-9a10-bf39f48b2066', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210C114B080>]}
+[0m14:51:09.897826 [info ] [Thread-2 (]: 1 of 6 OK created sql table model SILVER.listings_clean ........................ [[32mSUCCESS 1903[0m in 1.43s]
+[0m14:51:09.897826 [debug] [Thread-2 (]: Finished running node model.real_estate.listings_clean
+[0m14:51:09.898826 [debug] [Thread-4 (]: Began running node model.real_estate.dim_date
+[0m14:51:09.898826 [debug] [Thread-5 (]: Began running node model.real_estate.dim_energy
+[0m14:51:09.899827 [debug] [Thread-3 (]: Began running node model.real_estate.dim_location
+[0m14:51:09.899827 [info ] [Thread-4 (]: 2 of 6 START sql table model GOLD.dim_date ..................................... [RUN]
+[0m14:51:09.899827 [debug] [Thread-2 (]: Began running node model.real_estate.dim_property
+[0m14:51:09.900826 [info ] [Thread-5 (]: 3 of 6 START sql table model GOLD.dim_energy ................................... [RUN]
+[0m14:51:09.900826 [info ] [Thread-3 (]: 4 of 6 START sql table model GOLD.dim_location ................................. [RUN]
+[0m14:51:09.900826 [debug] [Thread-4 (]: Acquiring new snowflake connection 'model.real_estate.dim_date'
+[0m14:51:09.901826 [info ] [Thread-2 (]: 5 of 6 START sql table model GOLD.dim_property ................................. [RUN]
+[0m14:51:09.901826 [debug] [Thread-5 (]: Acquiring new snowflake connection 'model.real_estate.dim_energy'
+[0m14:51:09.902826 [debug] [Thread-3 (]: Acquiring new snowflake connection 'model.real_estate.dim_location'
+[0m14:51:09.902826 [debug] [Thread-4 (]: Began compiling node model.real_estate.dim_date
+[0m14:51:09.902826 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.real_estate.listings_clean, now model.real_estate.dim_property)
+[0m14:51:09.902826 [debug] [Thread-5 (]: Began compiling node model.real_estate.dim_energy
+[0m14:51:09.902826 [debug] [Thread-3 (]: Began compiling node model.real_estate.dim_location
+[0m14:51:09.906014 [debug] [Thread-4 (]: Writing injected SQL for node "model.real_estate.dim_date"
+[0m14:51:09.906014 [debug] [Thread-2 (]: Began compiling node model.real_estate.dim_property
+[0m14:51:09.908019 [debug] [Thread-5 (]: Writing injected SQL for node "model.real_estate.dim_energy"
+[0m14:51:09.909702 [debug] [Thread-3 (]: Writing injected SQL for node "model.real_estate.dim_location"
+[0m14:51:09.913677 [debug] [Thread-2 (]: Writing injected SQL for node "model.real_estate.dim_property"
+[0m14:51:09.915336 [debug] [Thread-4 (]: Began executing node model.real_estate.dim_date
+[0m14:51:09.916343 [debug] [Thread-5 (]: Began executing node model.real_estate.dim_energy
+[0m14:51:09.918342 [debug] [Thread-4 (]: Writing runtime sql for node "model.real_estate.dim_date"
+[0m14:51:09.920340 [debug] [Thread-5 (]: Writing runtime sql for node "model.real_estate.dim_energy"
+[0m14:51:09.920340 [debug] [Thread-3 (]: Began executing node model.real_estate.dim_location
+[0m14:51:09.921341 [debug] [Thread-2 (]: Began executing node model.real_estate.dim_property
+[0m14:51:09.922341 [debug] [Thread-3 (]: Writing runtime sql for node "model.real_estate.dim_location"
+[0m14:51:09.924363 [debug] [Thread-2 (]: Writing runtime sql for node "model.real_estate.dim_property"
+[0m14:51:09.925342 [debug] [Thread-4 (]: Using snowflake connection "model.real_estate.dim_date"
+[0m14:51:09.925342 [debug] [Thread-4 (]: On model.real_estate.dim_date: create or replace transient table REAL_ESTATE_DB.GOLD.dim_date
+    
+    
+    
+    as (
+
+SELECT DISTINCT
+
+    listing_date AS date_key,
+    listing_date,
+
+    YEAR(listing_date) AS year,
+    MONTH(listing_date) AS month,
+    DAY(listing_date) AS day,
+    MONTHNAME(listing_date) AS month_name,
+    DAYNAME(listing_date) AS day_name,
+    QUARTER(listing_date) AS quarter
+
+FROM REAL_ESTATE_DB.SILVER.listings_clean
+
+WHERE listing_date IS NOT NULL
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.dim_date"} */;
+[0m14:51:09.926341 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m14:51:09.926341 [debug] [Thread-3 (]: Using snowflake connection "model.real_estate.dim_location"
+[0m14:51:09.927342 [debug] [Thread-5 (]: Using snowflake connection "model.real_estate.dim_energy"
+[0m14:51:09.927342 [debug] [Thread-3 (]: On model.real_estate.dim_location: create or replace transient table REAL_ESTATE_DB.GOLD.dim_location
+    
+    
+    
+    as (
+
+SELECT
+
+    ROW_NUMBER() OVER (
+        ORDER BY country, city, neighborhood
+    ) AS location_key,
+
+    country,
+    city,
+    neighborhood
+
+FROM (
+
+    SELECT DISTINCT
+
+        country,
+        city,
+        neighborhood
+
+    FROM REAL_ESTATE_DB.SILVER.listings_clean
+
+)
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.dim_location"} */;
+[0m14:51:09.928341 [debug] [Thread-5 (]: On model.real_estate.dim_energy: create or replace transient table REAL_ESTATE_DB.GOLD.dim_energy
+    
+    
+    
+    as (
+
+SELECT
+
+    ROW_NUMBER() OVER (ORDER BY energy_rating) AS energy_key,
+    energy_rating
+
+FROM (
+
+    SELECT DISTINCT energy_rating
+    FROM REAL_ESTATE_DB.SILVER.listings_clean
+    WHERE energy_rating IS NOT NULL
+
+)
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.dim_energy"} */;
+[0m14:51:09.928341 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m14:51:09.929845 [debug] [Thread-2 (]: Using snowflake connection "model.real_estate.dim_property"
+[0m14:51:09.929845 [debug] [Thread-5 (]: Opening a new connection, currently in state init
+[0m14:51:09.930850 [debug] [Thread-2 (]: On model.real_estate.dim_property: create or replace transient table REAL_ESTATE_DB.GOLD.dim_property
+    
+    
+    
+    as (
+
+SELECT
+
+    ROW_NUMBER() OVER (
+        ORDER BY property_type,
+                 property_condition,
+                 heating_type,
+                 parking
+    ) AS property_key,
+
+    property_type,
+    property_condition,
+    heating_type,
+    parking
+
+FROM (
+
+    SELECT DISTINCT
+
+        property_type,
+        property_condition,
+        heating_type,
+        parking
+
+    FROM REAL_ESTATE_DB.SILVER.listings_clean
+
+)
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.dim_property"} */;
+[0m14:51:10.539405 [debug] [Thread-2 (]: SQL status: SUCCESS 220 in 0.608 seconds
+[0m14:51:10.541404 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a2746f9c-519e-4a9d-9a10-bf39f48b2066', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210C451A7E0>]}
+[0m14:51:10.541404 [info ] [Thread-2 (]: 5 of 6 OK created sql table model GOLD.dim_property ............................ [[32mSUCCESS 220[0m in 0.64s]
+[0m14:51:10.542403 [debug] [Thread-2 (]: Finished running node model.real_estate.dim_property
+[0m14:51:10.921532 [debug] [Thread-4 (]: SQL status: SUCCESS 1278 in 0.996 seconds
+[0m14:51:10.923531 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a2746f9c-519e-4a9d-9a10-bf39f48b2066', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210C44FE450>]}
+[0m14:51:10.924550 [info ] [Thread-4 (]: 2 of 6 OK created sql table model GOLD.dim_date ................................ [[32mSUCCESS 1278[0m in 1.02s]
+[0m14:51:10.924550 [debug] [Thread-4 (]: Finished running node model.real_estate.dim_date
+[0m14:51:11.127359 [debug] [Thread-3 (]: SQL status: SUCCESS 407 in 1.198 seconds
+[0m14:51:11.129871 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a2746f9c-519e-4a9d-9a10-bf39f48b2066', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210C451A750>]}
+[0m14:51:11.131382 [info ] [Thread-3 (]: 4 of 6 OK created sql table model GOLD.dim_location ............................ [[32mSUCCESS 407[0m in 1.23s]
+[0m14:51:11.132397 [debug] [Thread-3 (]: Finished running node model.real_estate.dim_location
+[0m14:51:11.195012 [debug] [Thread-5 (]: SQL status: SUCCESS 7 in 1.265 seconds
+[0m14:51:11.198013 [debug] [Thread-5 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a2746f9c-519e-4a9d-9a10-bf39f48b2066', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210C451CE30>]}
+[0m14:51:11.199026 [info ] [Thread-5 (]: 3 of 6 OK created sql table model GOLD.dim_energy .............................. [[32mSUCCESS 7[0m in 1.30s]
+[0m14:51:11.200014 [debug] [Thread-5 (]: Finished running node model.real_estate.dim_energy
+[0m14:51:11.201017 [debug] [Thread-2 (]: Began running node model.real_estate.fact_listings
+[0m14:51:11.201017 [info ] [Thread-2 (]: 6 of 6 START sql table model GOLD.fact_listings ................................ [RUN]
+[0m14:51:11.202020 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.real_estate.dim_property, now model.real_estate.fact_listings)
+[0m14:51:11.203048 [debug] [Thread-2 (]: Began compiling node model.real_estate.fact_listings
+[0m14:51:11.208016 [debug] [Thread-2 (]: Writing injected SQL for node "model.real_estate.fact_listings"
+[0m14:51:11.209014 [debug] [Thread-2 (]: Began executing node model.real_estate.fact_listings
+[0m14:51:11.212012 [debug] [Thread-2 (]: Writing runtime sql for node "model.real_estate.fact_listings"
+[0m14:51:11.213012 [debug] [Thread-2 (]: Using snowflake connection "model.real_estate.fact_listings"
+[0m14:51:11.213012 [debug] [Thread-2 (]: On model.real_estate.fact_listings: create or replace transient table REAL_ESTATE_DB.GOLD.fact_listings
+    
+    
+    
+    as (
+
+SELECT
+
+    l.listing_id,
+
+    d.date_key,
+    e.energy_key,
+    loc.location_key,
+    p.property_key,
+
+    l.price,
+    l.surface_m2,
+    l.num_rooms,
+    l.num_bathrooms,
+    l.floor,
+    l.year_built
+
+FROM REAL_ESTATE_DB.SILVER.listings_clean l
+
+LEFT JOIN REAL_ESTATE_DB.GOLD.dim_date d
+    ON l.listing_date = d.listing_date
+
+LEFT JOIN REAL_ESTATE_DB.GOLD.dim_energy e
+    ON l.energy_rating = e.energy_rating
+
+LEFT JOIN REAL_ESTATE_DB.GOLD.dim_location loc
+    ON l.country = loc.country
+   AND l.city = loc.city
+   AND l.neighborhood = loc.neighborhood
+
+LEFT JOIN REAL_ESTATE_DB.GOLD.dim_property p
+    ON l.property_type = p.property_type
+   AND l.property_condition = p.property_condition
+   AND l.heating_type = p.heating_type
+   AND l.parking = p.parking
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.fact_listings"} */;
+[0m14:51:12.321247 [debug] [Thread-2 (]: SQL status: SUCCESS 1903 in 1.107 seconds
+[0m14:51:12.324235 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a2746f9c-519e-4a9d-9a10-bf39f48b2066', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210C456B080>]}
+[0m14:51:12.325232 [info ] [Thread-2 (]: 6 of 6 OK created sql table model GOLD.fact_listings ........................... [[32mSUCCESS 1903[0m in 1.12s]
+[0m14:51:12.325232 [debug] [Thread-2 (]: Finished running node model.real_estate.fact_listings
+[0m14:51:12.326229 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:51:12.327231 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB' was left open.
+[0m14:51:12.327231 [debug] [MainThread]: On list_REAL_ESTATE_DB: Close
+[0m14:51:12.639341 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB' was left open.
+[0m14:51:12.640367 [debug] [MainThread]: On list_REAL_ESTATE_DB: Close
+[0m14:51:12.836730 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB_GOLD' was left open.
+[0m14:51:12.837744 [debug] [MainThread]: On list_REAL_ESTATE_DB_GOLD: Close
+[0m14:51:12.992560 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB_SILVER' was left open.
+[0m14:51:12.992560 [debug] [MainThread]: On list_REAL_ESTATE_DB_SILVER: Close
+[0m14:51:13.157383 [debug] [MainThread]: Connection 'model.real_estate.fact_listings' was left open.
+[0m14:51:13.157383 [debug] [MainThread]: On model.real_estate.fact_listings: Close
+[0m14:51:13.431766 [debug] [MainThread]: Connection 'model.real_estate.dim_date' was left open.
+[0m14:51:13.432765 [debug] [MainThread]: On model.real_estate.dim_date: Close
+[0m14:51:13.589790 [debug] [MainThread]: Connection 'model.real_estate.dim_energy' was left open.
+[0m14:51:13.589790 [debug] [MainThread]: On model.real_estate.dim_energy: Close
+[0m14:51:13.731478 [debug] [MainThread]: Connection 'model.real_estate.dim_location' was left open.
+[0m14:51:13.732460 [debug] [MainThread]: On model.real_estate.dim_location: Close
+[0m14:51:13.962181 [info ] [MainThread]: 
+[0m14:51:13.963199 [info ] [MainThread]: Finished running 6 table models in 0 hours 0 minutes and 9.86 seconds (9.86s).
+[0m14:51:13.965198 [debug] [MainThread]: Command end result
+[0m14:51:13.985757 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\us\real-estate-data-warehouse\target\manifest.json
+[0m14:51:13.987786 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\us\real-estate-data-warehouse\target\semantic_manifest.json
+[0m14:51:13.992758 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\us\real-estate-data-warehouse\target\run_results.json
+[0m14:51:13.992758 [info ] [MainThread]: 
+[0m14:51:13.993757 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:51:13.993757 [info ] [MainThread]: 
+[0m14:51:13.994757 [info ] [MainThread]: Done. PASS=6 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=6
+[0m14:51:13.994757 [debug] [MainThread]: Command `dbt run` succeeded at 14:51:13.994757 after 11.76 seconds
+[0m14:51:13.994757 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210BFACE8D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210BFA2B1A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000210BFA29A00>]}
+[0m14:51:13.994757 [debug] [MainThread]: Flushing usage events
+[0m14:51:15.102890 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:54:42.217551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000264439135F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026442E0E9F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026442E0CFE0>]}
+
+
+============================== 14:54:42.220557 | 665ef7bc-ab6f-4575-9895-0b2dae0d9732 ==============================
+[0m14:54:42.220557 [info ] [MainThread]: Running with dbt=1.11.12
+[0m14:54:42.221557 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\us\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt run', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\us\\real-estate-data-warehouse\\logs'}
+[0m14:54:42.467923 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m14:54:42.467923 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m14:54:42.468952 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m14:54:42.624530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '665ef7bc-ab6f-4575-9895-0b2dae0d9732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000264455B4260>]}
+[0m14:54:42.667563 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '665ef7bc-ab6f-4575-9895-0b2dae0d9732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026445446540>]}
+[0m14:54:42.668563 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m14:54:42.819410 [debug] [MainThread]: checksum: f368f5348cf42803b94ef7fb8257ecf3bf9a9a16dd9c8c51fe5172f2dbeb457f, vars: {}, profile: , target: , version: 1.11.12
+[0m14:54:42.924957 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m14:54:42.924957 [debug] [MainThread]: Partial parsing: updated file: real_estate://dbt/models\gold\dim_date.sql
+[0m14:54:43.109766 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '665ef7bc-ab6f-4575-9895-0b2dae0d9732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026446CBD160>]}
+[0m14:54:43.166793 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\us\real-estate-data-warehouse\target\manifest.json
+[0m14:54:43.168795 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\us\real-estate-data-warehouse\target\semantic_manifest.json
+[0m14:54:43.176847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '665ef7bc-ab6f-4575-9895-0b2dae0d9732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026446E2ABD0>]}
+[0m14:54:43.176847 [info ] [MainThread]: Found 6 models, 1 test, 1 source, 538 macros
+[0m14:54:43.177849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '665ef7bc-ab6f-4575-9895-0b2dae0d9732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026446DCE390>]}
+[0m14:54:43.178849 [info ] [MainThread]: 
+[0m14:54:43.178849 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:54:43.179848 [info ] [MainThread]: 
+[0m14:54:43.179848 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m14:54:43.183348 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB'
+[0m14:54:43.191364 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB'
+[0m14:54:43.222364 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB"
+[0m14:54:43.222364 [debug] [ThreadPool]: On list_REAL_ESTATE_DB: show terse schemas in database REAL_ESTATE_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB"} */
+[0m14:54:43.222364 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB"
+[0m14:54:43.223388 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:54:43.223388 [debug] [ThreadPool]: On list_REAL_ESTATE_DB: show terse schemas in database REAL_ESTATE_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB"} */
+[0m14:54:43.223388 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:54:44.474184 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.251 seconds
+[0m14:54:44.591933 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.369 seconds
+[0m14:54:44.596821 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB_GOLD'
+[0m14:54:44.605821 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB_GOLD"
+[0m14:54:44.606819 [debug] [ThreadPool]: On list_REAL_ESTATE_DB_GOLD: show objects in REAL_ESTATE_DB.GOLD
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB_GOLD"} */;
+[0m14:54:44.606819 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:54:44.607824 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB_SILVER'
+[0m14:54:44.608915 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB_SILVER"
+[0m14:54:44.608915 [debug] [ThreadPool]: On list_REAL_ESTATE_DB_SILVER: show objects in REAL_ESTATE_DB.SILVER
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB_SILVER"} */;
+[0m14:54:44.608915 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:54:45.077870 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 0.469 seconds
+[0m14:54:45.083092 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 0.477 seconds
+[0m14:54:45.088107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '665ef7bc-ab6f-4575-9895-0b2dae0d9732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026448364C80>]}
+[0m14:54:45.092200 [debug] [Thread-2 (]: Began running node model.real_estate.listings_clean
+[0m14:54:45.093201 [info ] [Thread-2 (]: 1 of 6 START sql table model SILVER.listings_clean ............................. [RUN]
+[0m14:54:45.093201 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.real_estate.listings_clean'
+[0m14:54:45.094201 [debug] [Thread-2 (]: Began compiling node model.real_estate.listings_clean
+[0m14:54:45.098199 [debug] [Thread-2 (]: Writing injected SQL for node "model.real_estate.listings_clean"
+[0m14:54:45.099201 [debug] [Thread-2 (]: Began executing node model.real_estate.listings_clean
+[0m14:54:45.121200 [debug] [Thread-2 (]: Writing runtime sql for node "model.real_estate.listings_clean"
+[0m14:54:45.124198 [debug] [Thread-2 (]: Using snowflake connection "model.real_estate.listings_clean"
+[0m14:54:45.125200 [debug] [Thread-2 (]: On model.real_estate.listings_clean: create or replace transient table REAL_ESTATE_DB.SILVER.listings_clean
+    
+    
+    
+    as (
+
+WITH source AS (
+
+    SELECT *
+    FROM REAL_ESTATE_DB.BRONZE.RAW_LISTINGS
+
+),
+cleaned AS (
+
+    SELECT
+
+        "listing_id" AS listing_id,
+
+        NULLIF(INITCAP(TRIM("property_type")), '') AS property_type,
+        NULLIF(INITCAP(TRIM("country")), '') AS country,
+        NULLIF(INITCAP(TRIM("city")), '') AS city,
+        NULLIF(INITCAP(TRIM("neighborhood")), '') AS neighborhood,
+
+        TRY_TO_NUMBER(NULLIF(TRIM("surface_m2"), '')) AS surface_m2,
+        TRY_TO_NUMBER(NULLIF(TRIM("num_rooms"), '')) AS num_rooms,
+        TRY_TO_NUMBER(NULLIF(TRIM("num_bathrooms"), '')) AS num_bathrooms,
+        TRY_TO_NUMBER(NULLIF(TRIM("floor"), '')) AS floor,
+        TRY_TO_NUMBER(NULLIF(TRIM("year_built"), '')) AS year_built,
+
+        TRY_TO_NUMBER(
+            REGEXP_REPLACE("price", '[^0-9.]', '')
+        ) AS price,
+
+        COALESCE(
+            TRY_TO_DATE("listing_date",'YYYY-MM-DD'),
+            TRY_TO_DATE("listing_date",'DD/MM/YYYY'),
+            TRY_TO_DATE("listing_date",'MM/DD/YYYY')
+        ) AS listing_date,
+
+        NULLIF(INITCAP(TRIM("condition")), '') AS property_condition,
+        NULLIF(INITCAP(TRIM("heating_type")), '') AS heating_type,
+
+        CASE
+            WHEN LOWER(TRIM("parking")) IN ('yes','y','true','1') THEN 'Yes'
+            WHEN LOWER(TRIM("parking")) IN ('no','n','false','0') THEN 'No'
+            ELSE NULL
+        END AS parking,
+
+        NULLIF(UPPER(TRIM("energy_rating")), '') AS energy_rating,
+
+        ROW_NUMBER() OVER (
+            PARTITION BY "listing_id"
+            ORDER BY
+                COALESCE(
+                    TRY_TO_DATE("listing_date",'YYYY-MM-DD'),
+                    TRY_TO_DATE("listing_date",'DD/MM/YYYY'),
+                    TRY_TO_DATE("listing_date",'MM/DD/YYYY')
+                ) DESC
+        ) AS rn
+
+    FROM source
+
+),
+
+stats AS (
+
+    SELECT
+
+        MEDIAN(surface_m2) AS median_surface_m2,
+        MEDIAN(num_rooms) AS median_num_rooms,
+        MEDIAN(num_bathrooms) AS median_num_bathrooms,
+        MEDIAN(floor) AS median_floor,
+        MEDIAN(year_built) AS median_year_built,
+
+        MODE(country) AS mode_country,
+        MODE(neighborhood) AS mode_neighborhood,
+        MODE(property_condition) AS mode_property_condition,
+        MODE(heating_type) AS mode_heating_type,
+        MODE(parking) AS mode_parking,
+        MODE(energy_rating) AS mode_energy_rating,
+        MODE(listing_date) AS mode_listing_date
+
+    FROM cleaned
+
+    WHERE rn = 1
+
+)
+
+SELECT
+
+    c.listing_id,
+    c.property_type,
+
+    COALESCE(c.country, s.mode_country) AS country,
+    c.city,
+    COALESCE(c.neighborhood, s.mode_neighborhood) AS neighborhood,
+
+    COALESCE(c.surface_m2, s.median_surface_m2) AS surface_m2,
+    COALESCE(c.num_rooms, s.median_num_rooms) AS num_rooms,
+    COALESCE(c.num_bathrooms, s.median_num_bathrooms) AS num_bathrooms,
+    COALESCE(c.floor, s.median_floor) AS floor,
+    COALESCE(c.year_built, s.median_year_built) AS year_built,
+
+    c.price,
+
+    COALESCE(c.listing_date, s.mode_listing_date) AS listing_date,
+
+    COALESCE(c.property_condition, s.mode_property_condition) AS property_condition,
+    COALESCE(c.heating_type, s.mode_heating_type) AS heating_type,
+    COALESCE(c.parking, s.mode_parking) AS parking,
+    COALESCE(c.energy_rating, s.mode_energy_rating) AS energy_rating
+
+FROM cleaned c
+CROSS JOIN stats s
+
+WHERE c.rn = 1
+  AND c.price BETWEEN 10000 AND 100000000
+  AND COALESCE(c.surface_m2, s.median_surface_m2) BETWEEN 10 AND 5000
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.listings_clean"} */;
+[0m14:54:45.125200 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m14:54:46.316360 [debug] [Thread-2 (]: SQL status: SUCCESS 1903 in 1.191 seconds
+[0m14:54:46.334901 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '665ef7bc-ab6f-4575-9895-0b2dae0d9732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002644346CC20>]}
+[0m14:54:46.334901 [info ] [Thread-2 (]: 1 of 6 OK created sql table model SILVER.listings_clean ........................ [[32mSUCCESS 1903[0m in 1.24s]
+[0m14:54:46.335900 [debug] [Thread-2 (]: Finished running node model.real_estate.listings_clean
+[0m14:54:46.335900 [debug] [Thread-4 (]: Began running node model.real_estate.dim_date
+[0m14:54:46.335900 [info ] [Thread-4 (]: 2 of 6 START sql table model GOLD.dim_date ..................................... [RUN]
+[0m14:54:46.336901 [debug] [Thread-5 (]: Began running node model.real_estate.dim_energy
+[0m14:54:46.336901 [debug] [Thread-4 (]: Acquiring new snowflake connection 'model.real_estate.dim_date'
+[0m14:54:46.337900 [debug] [Thread-3 (]: Began running node model.real_estate.dim_location
+[0m14:54:46.337900 [debug] [Thread-2 (]: Began running node model.real_estate.dim_property
+[0m14:54:46.337900 [info ] [Thread-5 (]: 3 of 6 START sql table model GOLD.dim_energy ................................... [RUN]
+[0m14:54:46.337900 [debug] [Thread-4 (]: Began compiling node model.real_estate.dim_date
+[0m14:54:46.338901 [info ] [Thread-3 (]: 4 of 6 START sql table model GOLD.dim_location ................................. [RUN]
+[0m14:54:46.340367 [debug] [Thread-5 (]: Acquiring new snowflake connection 'model.real_estate.dim_energy'
+[0m14:54:46.338901 [info ] [Thread-2 (]: 5 of 6 START sql table model GOLD.dim_property ................................. [RUN]
+[0m14:54:46.342372 [debug] [Thread-4 (]: Writing injected SQL for node "model.real_estate.dim_date"
+[0m14:54:46.342372 [debug] [Thread-3 (]: Acquiring new snowflake connection 'model.real_estate.dim_location'
+[0m14:54:46.342372 [debug] [Thread-5 (]: Began compiling node model.real_estate.dim_energy
+[0m14:54:46.342372 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.real_estate.listings_clean, now model.real_estate.dim_property)
+[0m14:54:46.343371 [debug] [Thread-3 (]: Began compiling node model.real_estate.dim_location
+[0m14:54:46.344386 [debug] [Thread-5 (]: Writing injected SQL for node "model.real_estate.dim_energy"
+[0m14:54:46.345408 [debug] [Thread-2 (]: Began compiling node model.real_estate.dim_property
+[0m14:54:46.347391 [debug] [Thread-3 (]: Writing injected SQL for node "model.real_estate.dim_location"
+[0m14:54:46.347391 [debug] [Thread-4 (]: Began executing node model.real_estate.dim_date
+[0m14:54:46.349412 [debug] [Thread-2 (]: Writing injected SQL for node "model.real_estate.dim_property"
+[0m14:54:46.351407 [debug] [Thread-4 (]: Writing runtime sql for node "model.real_estate.dim_date"
+[0m14:54:46.352391 [debug] [Thread-5 (]: Began executing node model.real_estate.dim_energy
+[0m14:54:46.352391 [debug] [Thread-3 (]: Began executing node model.real_estate.dim_location
+[0m14:54:46.353390 [debug] [Thread-5 (]: Writing runtime sql for node "model.real_estate.dim_energy"
+[0m14:54:46.354407 [debug] [Thread-2 (]: Began executing node model.real_estate.dim_property
+[0m14:54:46.355895 [debug] [Thread-3 (]: Writing runtime sql for node "model.real_estate.dim_location"
+[0m14:54:46.358899 [debug] [Thread-2 (]: Writing runtime sql for node "model.real_estate.dim_property"
+[0m14:54:46.359899 [debug] [Thread-4 (]: Using snowflake connection "model.real_estate.dim_date"
+[0m14:54:46.359899 [debug] [Thread-4 (]: On model.real_estate.dim_date: create or replace transient table REAL_ESTATE_DB.GOLD.dim_date
+    
+    
+    
+    as (
+
+SELECT
+
+    ROW_NUMBER() OVER (ORDER BY listing_date) AS date_id,
+
+    listing_date,
+
+    YEAR(listing_date) AS year,
+    MONTH(listing_date) AS month,
+    DAY(listing_date) AS day,
+    MONTHNAME(listing_date) AS month_name,
+    DAYNAME(listing_date) AS day_name,
+    QUARTER(listing_date) AS quarter
+
+FROM REAL_ESTATE_DB.SILVER.listings_clean
+
+WHERE listing_date IS NOT NULL
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.dim_date"} */;
+[0m14:54:46.360902 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m14:54:46.360902 [debug] [Thread-3 (]: Using snowflake connection "model.real_estate.dim_location"
+[0m14:54:46.362275 [debug] [Thread-3 (]: On model.real_estate.dim_location: create or replace transient table REAL_ESTATE_DB.GOLD.dim_location
+    
+    
+    
+    as (
+
+SELECT
+
+    ROW_NUMBER() OVER (
+        ORDER BY country, city, neighborhood
+    ) AS location_key,
+
+    country,
+    city,
+    neighborhood
+
+FROM (
+
+    SELECT DISTINCT
+
+        country,
+        city,
+        neighborhood
+
+    FROM REAL_ESTATE_DB.SILVER.listings_clean
+
+)
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.dim_location"} */;
+[0m14:54:46.363280 [debug] [Thread-2 (]: Using snowflake connection "model.real_estate.dim_property"
+[0m14:54:46.363280 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m14:54:46.363280 [debug] [Thread-2 (]: On model.real_estate.dim_property: create or replace transient table REAL_ESTATE_DB.GOLD.dim_property
+    
+    
+    
+    as (
+
+SELECT
+
+    ROW_NUMBER() OVER (
+        ORDER BY property_type,
+                 property_condition,
+                 heating_type,
+                 parking
+    ) AS property_key,
+
+    property_type,
+    property_condition,
+    heating_type,
+    parking
+
+FROM (
+
+    SELECT DISTINCT
+
+        property_type,
+        property_condition,
+        heating_type,
+        parking
+
+    FROM REAL_ESTATE_DB.SILVER.listings_clean
+
+)
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.dim_property"} */;
+[0m14:54:46.364281 [debug] [Thread-5 (]: Using snowflake connection "model.real_estate.dim_energy"
+[0m14:54:46.365280 [debug] [Thread-5 (]: On model.real_estate.dim_energy: create or replace transient table REAL_ESTATE_DB.GOLD.dim_energy
+    
+    
+    
+    as (
+
+SELECT
+
+    ROW_NUMBER() OVER (ORDER BY energy_rating) AS energy_key,
+    energy_rating
+
+FROM (
+
+    SELECT DISTINCT energy_rating
+    FROM REAL_ESTATE_DB.SILVER.listings_clean
+    WHERE energy_rating IS NOT NULL
+
+)
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.dim_energy"} */;
+[0m14:54:46.366299 [debug] [Thread-5 (]: Opening a new connection, currently in state init
+[0m14:54:47.027023 [debug] [Thread-2 (]: SQL status: SUCCESS 220 in 0.663 seconds
+[0m14:54:47.031032 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '665ef7bc-ab6f-4575-9895-0b2dae0d9732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002644857A810>]}
+[0m14:54:47.032035 [info ] [Thread-2 (]: 5 of 6 OK created sql table model GOLD.dim_property ............................ [[32mSUCCESS 220[0m in 0.69s]
+[0m14:54:47.033017 [debug] [Thread-2 (]: Finished running node model.real_estate.dim_property
+[0m14:54:47.223625 [debug] [Thread-5 (]: SQL status: SUCCESS 7 in 0.857 seconds
+[0m14:54:47.226624 [debug] [Thread-5 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '665ef7bc-ab6f-4575-9895-0b2dae0d9732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000264485B4620>]}
+[0m14:54:47.227625 [info ] [Thread-5 (]: 3 of 6 OK created sql table model GOLD.dim_energy .............................. [[32mSUCCESS 7[0m in 0.89s]
+[0m14:54:47.228635 [debug] [Thread-5 (]: Finished running node model.real_estate.dim_energy
+[0m14:54:47.381679 [debug] [Thread-3 (]: SQL status: SUCCESS 407 in 1.019 seconds
+[0m14:54:47.385677 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '665ef7bc-ab6f-4575-9895-0b2dae0d9732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000264485C6540>]}
+[0m14:54:47.386677 [info ] [Thread-3 (]: 4 of 6 OK created sql table model GOLD.dim_location ............................ [[32mSUCCESS 407[0m in 1.04s]
+[0m14:54:47.387675 [debug] [Thread-3 (]: Finished running node model.real_estate.dim_location
+[0m14:54:47.867523 [debug] [Thread-4 (]: SQL status: SUCCESS 1903 in 1.507 seconds
+[0m14:54:47.869507 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '665ef7bc-ab6f-4575-9895-0b2dae0d9732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000264485B5B20>]}
+[0m14:54:47.869507 [info ] [Thread-4 (]: 2 of 6 OK created sql table model GOLD.dim_date ................................ [[32mSUCCESS 1903[0m in 1.53s]
+[0m14:54:47.871012 [debug] [Thread-4 (]: Finished running node model.real_estate.dim_date
+[0m14:54:47.871012 [debug] [Thread-2 (]: Began running node model.real_estate.fact_listings
+[0m14:54:47.872018 [info ] [Thread-2 (]: 6 of 6 START sql table model GOLD.fact_listings ................................ [RUN]
+[0m14:54:47.872018 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.real_estate.dim_property, now model.real_estate.fact_listings)
+[0m14:54:47.873018 [debug] [Thread-2 (]: Began compiling node model.real_estate.fact_listings
+[0m14:54:47.876034 [debug] [Thread-2 (]: Writing injected SQL for node "model.real_estate.fact_listings"
+[0m14:54:47.877017 [debug] [Thread-2 (]: Began executing node model.real_estate.fact_listings
+[0m14:54:47.879033 [debug] [Thread-2 (]: Writing runtime sql for node "model.real_estate.fact_listings"
+[0m14:54:47.880017 [debug] [Thread-2 (]: Using snowflake connection "model.real_estate.fact_listings"
+[0m14:54:47.880017 [debug] [Thread-2 (]: On model.real_estate.fact_listings: create or replace transient table REAL_ESTATE_DB.GOLD.fact_listings
+    
+    
+    
+    as (
+
+SELECT
+
+    l.listing_id,
+
+    d.date_key,
+    e.energy_key,
+    loc.location_key,
+    p.property_key,
+
+    l.price,
+    l.surface_m2,
+    l.num_rooms,
+    l.num_bathrooms,
+    l.floor,
+    l.year_built
+
+FROM REAL_ESTATE_DB.SILVER.listings_clean l
+
+LEFT JOIN REAL_ESTATE_DB.GOLD.dim_date d
+    ON l.listing_date = d.listing_date
+
+LEFT JOIN REAL_ESTATE_DB.GOLD.dim_energy e
+    ON l.energy_rating = e.energy_rating
+
+LEFT JOIN REAL_ESTATE_DB.GOLD.dim_location loc
+    ON l.country = loc.country
+   AND l.city = loc.city
+   AND l.neighborhood = loc.neighborhood
+
+LEFT JOIN REAL_ESTATE_DB.GOLD.dim_property p
+    ON l.property_type = p.property_type
+   AND l.property_condition = p.property_condition
+   AND l.heating_type = p.heating_type
+   AND l.parking = p.parking
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.fact_listings"} */;
+[0m14:54:48.065568 [debug] [Thread-2 (]: Snowflake adapter: Snowflake query id: 01c570c2-0001-e26c-0002-9302000ed61e
+[0m14:54:48.065568 [debug] [Thread-2 (]: Snowflake adapter: Snowflake error: 000904 (42000): SQL compilation error: error line 11 at position 4
+invalid identifier 'D.DATE_KEY'
+[0m14:54:48.068567 [debug] [Thread-2 (]: Database Error in model fact_listings (dbt/models\gold\fact_listings.sql)
+  000904 (42000): SQL compilation error: error line 11 at position 4
+  invalid identifier 'D.DATE_KEY'
+  compiled code at target\run\real_estate\dbt/models\gold\fact_listings.sql
+[0m14:54:48.069567 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '665ef7bc-ab6f-4575-9895-0b2dae0d9732', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002644833D9A0>]}
+[0m14:54:48.069567 [error] [Thread-2 (]: 6 of 6 ERROR creating sql table model GOLD.fact_listings ....................... [[31mERROR[0m in 0.20s]
+[0m14:54:48.070556 [debug] [Thread-2 (]: Finished running node model.real_estate.fact_listings
+[0m14:54:48.070556 [debug] [Thread-8 (]: Marking all children of 'model.real_estate.fact_listings' to be skipped because of status 'error'.  Reason: Database Error in model fact_listings (dbt/models\gold\fact_listings.sql)
+  000904 (42000): SQL compilation error: error line 11 at position 4
+  invalid identifier 'D.DATE_KEY'
+  compiled code at target\run\real_estate\dbt/models\gold\fact_listings.sql.
+[0m14:54:48.072102 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:54:48.072102 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB' was left open.
+[0m14:54:48.072102 [debug] [MainThread]: On list_REAL_ESTATE_DB: Close
+[0m14:54:48.223690 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB' was left open.
+[0m14:54:48.224690 [debug] [MainThread]: On list_REAL_ESTATE_DB: Close
+[0m14:54:48.380567 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB_GOLD' was left open.
+[0m14:54:48.381565 [debug] [MainThread]: On list_REAL_ESTATE_DB_GOLD: Close
+[0m14:54:48.520457 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB_SILVER' was left open.
+[0m14:54:48.521460 [debug] [MainThread]: On list_REAL_ESTATE_DB_SILVER: Close
+[0m14:54:48.662792 [debug] [MainThread]: Connection 'model.real_estate.fact_listings' was left open.
+[0m14:54:48.663796 [debug] [MainThread]: On model.real_estate.fact_listings: Close
+[0m14:54:48.801732 [debug] [MainThread]: Connection 'model.real_estate.dim_date' was left open.
+[0m14:54:48.802732 [debug] [MainThread]: On model.real_estate.dim_date: Close
+[0m14:54:49.271613 [debug] [MainThread]: Connection 'model.real_estate.dim_energy' was left open.
+[0m14:54:49.272613 [debug] [MainThread]: On model.real_estate.dim_energy: Close
+[0m14:54:49.407915 [debug] [MainThread]: Connection 'model.real_estate.dim_location' was left open.
+[0m14:54:49.408916 [debug] [MainThread]: On model.real_estate.dim_location: Close
+[0m14:54:49.540443 [info ] [MainThread]: 
+[0m14:54:49.541460 [info ] [MainThread]: Finished running 6 table models in 0 hours 0 minutes and 6.36 seconds (6.36s).
+[0m14:54:49.542447 [debug] [MainThread]: Command end result
+[0m14:54:49.625819 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\us\real-estate-data-warehouse\target\manifest.json
+[0m14:54:49.628817 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\us\real-estate-data-warehouse\target\semantic_manifest.json
+[0m14:54:49.632821 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\us\real-estate-data-warehouse\target\run_results.json
+[0m14:54:49.632821 [info ] [MainThread]: 
+[0m14:54:49.633817 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m14:54:49.633817 [info ] [MainThread]: 
+[0m14:54:49.633817 [error] [MainThread]: [31mFailure in model fact_listings (dbt/models\gold\fact_listings.sql)[0m
+[0m14:54:49.634814 [error] [MainThread]:   Database Error in model fact_listings (dbt/models\gold\fact_listings.sql)
+  000904 (42000): SQL compilation error: error line 11 at position 4
+  invalid identifier 'D.DATE_KEY'
+  compiled code at target\run\real_estate\dbt/models\gold\fact_listings.sql
+[0m14:54:49.634814 [info ] [MainThread]: 
+[0m14:54:49.634814 [info ] [MainThread]:   compiled code at target\compiled\real_estate\dbt/models\gold\fact_listings.sql
+[0m14:54:49.635817 [info ] [MainThread]: 
+[0m14:54:49.635817 [info ] [MainThread]: Done. PASS=5 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=6
+[0m14:54:49.635817 [debug] [MainThread]: Command `dbt run` failed at 14:54:49.635817 after 7.55 seconds
+[0m14:54:49.636819 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026440564560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000264417DE660>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000264417DE570>]}
+[0m14:54:49.636819 [debug] [MainThread]: Flushing usage events
+[0m14:54:50.568970 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:57:14.476442 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B385A8E540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38808CDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38808DEE0>]}
+
+
+============================== 14:57:14.479463 | 98cc302f-21a1-4f38-8082-0d6099684981 ==============================
+[0m14:57:14.479463 [info ] [MainThread]: Running with dbt=1.11.12
+[0m14:57:14.479463 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\us\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt run', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\us\\real-estate-data-warehouse\\logs'}
+[0m14:57:14.751356 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m14:57:14.751356 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m14:57:14.751356 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m14:57:14.914008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '98cc302f-21a1-4f38-8082-0d6099684981', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38AEA9B20>]}
+[0m14:57:14.956755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '98cc302f-21a1-4f38-8082-0d6099684981', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38A91D4C0>]}
+[0m14:57:14.958656 [info ] [MainThread]: Registered adapter: snowflake=1.11.6
+[0m14:57:15.110919 [debug] [MainThread]: checksum: f368f5348cf42803b94ef7fb8257ecf3bf9a9a16dd9c8c51fe5172f2dbeb457f, vars: {}, profile: , target: , version: 1.11.12
+[0m14:57:15.222444 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m14:57:15.223461 [debug] [MainThread]: Partial parsing: updated file: real_estate://dbt/models\gold\dim_date.sql
+[0m14:57:15.223461 [debug] [MainThread]: Partial parsing: updated file: real_estate://dbt/models\gold\fact_listings.sql
+[0m14:57:15.421040 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '98cc302f-21a1-4f38-8082-0d6099684981', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38B8F93A0>]}
+[0m14:57:15.477130 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\us\real-estate-data-warehouse\target\manifest.json
+[0m14:57:15.479131 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\us\real-estate-data-warehouse\target\semantic_manifest.json
+[0m14:57:15.487133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '98cc302f-21a1-4f38-8082-0d6099684981', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38BAB16D0>]}
+[0m14:57:15.488114 [info ] [MainThread]: Found 6 models, 1 test, 1 source, 538 macros
+[0m14:57:15.488114 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '98cc302f-21a1-4f38-8082-0d6099684981', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38BA7DBE0>]}
+[0m14:57:15.489113 [info ] [MainThread]: 
+[0m14:57:15.490113 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m14:57:15.490113 [info ] [MainThread]: 
+[0m14:57:15.491113 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m14:57:15.494130 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB'
+[0m14:57:15.502151 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB'
+[0m14:57:15.533132 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB"
+[0m14:57:15.534131 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB"
+[0m14:57:15.534131 [debug] [ThreadPool]: On list_REAL_ESTATE_DB: show terse schemas in database REAL_ESTATE_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB"} */
+[0m14:57:15.534131 [debug] [ThreadPool]: On list_REAL_ESTATE_DB: show terse schemas in database REAL_ESTATE_DB
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB"} */
+[0m14:57:15.535116 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:57:15.535116 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:57:16.828056 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.293 seconds
+[0m14:57:16.963427 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.429 seconds
+[0m14:57:16.966411 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB_GOLD'
+[0m14:57:16.974405 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB_GOLD"
+[0m14:57:16.974405 [debug] [ThreadPool]: On list_REAL_ESTATE_DB_GOLD: show objects in REAL_ESTATE_DB.GOLD
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB_GOLD"} */;
+[0m14:57:16.974405 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_REAL_ESTATE_DB_SILVER'
+[0m14:57:16.974405 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:57:16.976410 [debug] [ThreadPool]: Using snowflake connection "list_REAL_ESTATE_DB_SILVER"
+[0m14:57:16.976410 [debug] [ThreadPool]: On list_REAL_ESTATE_DB_SILVER: show objects in REAL_ESTATE_DB.SILVER
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "connection_name": "list_REAL_ESTATE_DB_SILVER"} */;
+[0m14:57:16.977410 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:57:18.216205 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.241 seconds
+[0m14:57:18.430005 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 1.453 seconds
+[0m14:57:18.434990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '98cc302f-21a1-4f38-8082-0d6099684981', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38CF879E0>]}
+[0m14:57:18.438989 [debug] [Thread-2 (]: Began running node model.real_estate.listings_clean
+[0m14:57:18.440000 [info ] [Thread-2 (]: 1 of 6 START sql table model SILVER.listings_clean ............................. [RUN]
+[0m14:57:18.440993 [debug] [Thread-2 (]: Acquiring new snowflake connection 'model.real_estate.listings_clean'
+[0m14:57:18.440993 [debug] [Thread-2 (]: Began compiling node model.real_estate.listings_clean
+[0m14:57:18.447990 [debug] [Thread-2 (]: Writing injected SQL for node "model.real_estate.listings_clean"
+[0m14:57:18.448989 [debug] [Thread-2 (]: Began executing node model.real_estate.listings_clean
+[0m14:57:18.469054 [debug] [Thread-2 (]: Writing runtime sql for node "model.real_estate.listings_clean"
+[0m14:57:18.471079 [debug] [Thread-2 (]: Using snowflake connection "model.real_estate.listings_clean"
+[0m14:57:18.472066 [debug] [Thread-2 (]: On model.real_estate.listings_clean: create or replace transient table REAL_ESTATE_DB.SILVER.listings_clean
+    
+    
+    
+    as (
+
+WITH source AS (
+
+    SELECT *
+    FROM REAL_ESTATE_DB.BRONZE.RAW_LISTINGS
+
+),
+cleaned AS (
+
+    SELECT
+
+        "listing_id" AS listing_id,
+
+        NULLIF(INITCAP(TRIM("property_type")), '') AS property_type,
+        NULLIF(INITCAP(TRIM("country")), '') AS country,
+        NULLIF(INITCAP(TRIM("city")), '') AS city,
+        NULLIF(INITCAP(TRIM("neighborhood")), '') AS neighborhood,
+
+        TRY_TO_NUMBER(NULLIF(TRIM("surface_m2"), '')) AS surface_m2,
+        TRY_TO_NUMBER(NULLIF(TRIM("num_rooms"), '')) AS num_rooms,
+        TRY_TO_NUMBER(NULLIF(TRIM("num_bathrooms"), '')) AS num_bathrooms,
+        TRY_TO_NUMBER(NULLIF(TRIM("floor"), '')) AS floor,
+        TRY_TO_NUMBER(NULLIF(TRIM("year_built"), '')) AS year_built,
+
+        TRY_TO_NUMBER(
+            REGEXP_REPLACE("price", '[^0-9.]', '')
+        ) AS price,
+
+        COALESCE(
+            TRY_TO_DATE("listing_date",'YYYY-MM-DD'),
+            TRY_TO_DATE("listing_date",'DD/MM/YYYY'),
+            TRY_TO_DATE("listing_date",'MM/DD/YYYY')
+        ) AS listing_date,
+
+        NULLIF(INITCAP(TRIM("condition")), '') AS property_condition,
+        NULLIF(INITCAP(TRIM("heating_type")), '') AS heating_type,
+
+        CASE
+            WHEN LOWER(TRIM("parking")) IN ('yes','y','true','1') THEN 'Yes'
+            WHEN LOWER(TRIM("parking")) IN ('no','n','false','0') THEN 'No'
+            ELSE NULL
+        END AS parking,
+
+        NULLIF(UPPER(TRIM("energy_rating")), '') AS energy_rating,
+
+        ROW_NUMBER() OVER (
+            PARTITION BY "listing_id"
+            ORDER BY
+                COALESCE(
+                    TRY_TO_DATE("listing_date",'YYYY-MM-DD'),
+                    TRY_TO_DATE("listing_date",'DD/MM/YYYY'),
+                    TRY_TO_DATE("listing_date",'MM/DD/YYYY')
+                ) DESC
+        ) AS rn
+
+    FROM source
+
+),
+
+stats AS (
+
+    SELECT
+
+        MEDIAN(surface_m2) AS median_surface_m2,
+        MEDIAN(num_rooms) AS median_num_rooms,
+        MEDIAN(num_bathrooms) AS median_num_bathrooms,
+        MEDIAN(floor) AS median_floor,
+        MEDIAN(year_built) AS median_year_built,
+
+        MODE(country) AS mode_country,
+        MODE(neighborhood) AS mode_neighborhood,
+        MODE(property_condition) AS mode_property_condition,
+        MODE(heating_type) AS mode_heating_type,
+        MODE(parking) AS mode_parking,
+        MODE(energy_rating) AS mode_energy_rating,
+        MODE(listing_date) AS mode_listing_date
+
+    FROM cleaned
+
+    WHERE rn = 1
+
+)
+
+SELECT
+
+    c.listing_id,
+    c.property_type,
+
+    COALESCE(c.country, s.mode_country) AS country,
+    c.city,
+    COALESCE(c.neighborhood, s.mode_neighborhood) AS neighborhood,
+
+    COALESCE(c.surface_m2, s.median_surface_m2) AS surface_m2,
+    COALESCE(c.num_rooms, s.median_num_rooms) AS num_rooms,
+    COALESCE(c.num_bathrooms, s.median_num_bathrooms) AS num_bathrooms,
+    COALESCE(c.floor, s.median_floor) AS floor,
+    COALESCE(c.year_built, s.median_year_built) AS year_built,
+
+    c.price,
+
+    COALESCE(c.listing_date, s.mode_listing_date) AS listing_date,
+
+    COALESCE(c.property_condition, s.mode_property_condition) AS property_condition,
+    COALESCE(c.heating_type, s.mode_heating_type) AS heating_type,
+    COALESCE(c.parking, s.mode_parking) AS parking,
+    COALESCE(c.energy_rating, s.mode_energy_rating) AS energy_rating
+
+FROM cleaned c
+CROSS JOIN stats s
+
+WHERE c.rn = 1
+  AND c.price BETWEEN 10000 AND 100000000
+  AND COALESCE(c.surface_m2, s.median_surface_m2) BETWEEN 10 AND 5000
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.listings_clean"} */;
+[0m14:57:18.472066 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m14:57:19.731978 [debug] [Thread-2 (]: SQL status: SUCCESS 1903 in 1.260 seconds
+[0m14:57:19.751994 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '98cc302f-21a1-4f38-8082-0d6099684981', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B389E6BCE0>]}
+[0m14:57:19.751994 [info ] [Thread-2 (]: 1 of 6 OK created sql table model SILVER.listings_clean ........................ [[32mSUCCESS 1903[0m in 1.31s]
+[0m14:57:19.753501 [debug] [Thread-2 (]: Finished running node model.real_estate.listings_clean
+[0m14:57:19.753501 [debug] [Thread-4 (]: Began running node model.real_estate.dim_date
+[0m14:57:19.754506 [debug] [Thread-5 (]: Began running node model.real_estate.dim_energy
+[0m14:57:19.754506 [debug] [Thread-3 (]: Began running node model.real_estate.dim_location
+[0m14:57:19.755505 [debug] [Thread-2 (]: Began running node model.real_estate.dim_property
+[0m14:57:19.755505 [info ] [Thread-4 (]: 2 of 6 START sql table model GOLD.dim_date ..................................... [RUN]
+[0m14:57:19.755505 [info ] [Thread-5 (]: 3 of 6 START sql table model GOLD.dim_energy ................................... [RUN]
+[0m14:57:19.756505 [debug] [Thread-4 (]: Acquiring new snowflake connection 'model.real_estate.dim_date'
+[0m14:57:19.756505 [info ] [Thread-3 (]: 4 of 6 START sql table model GOLD.dim_location ................................. [RUN]
+[0m14:57:19.757505 [debug] [Thread-5 (]: Acquiring new snowflake connection 'model.real_estate.dim_energy'
+[0m14:57:19.757505 [debug] [Thread-4 (]: Began compiling node model.real_estate.dim_date
+[0m14:57:19.756505 [info ] [Thread-2 (]: 5 of 6 START sql table model GOLD.dim_property ................................. [RUN]
+[0m14:57:19.757505 [debug] [Thread-3 (]: Acquiring new snowflake connection 'model.real_estate.dim_location'
+[0m14:57:19.757505 [debug] [Thread-5 (]: Began compiling node model.real_estate.dim_energy
+[0m14:57:19.760506 [debug] [Thread-4 (]: Writing injected SQL for node "model.real_estate.dim_date"
+[0m14:57:19.760506 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.real_estate.listings_clean, now model.real_estate.dim_property)
+[0m14:57:19.760506 [debug] [Thread-3 (]: Began compiling node model.real_estate.dim_location
+[0m14:57:19.762523 [debug] [Thread-5 (]: Writing injected SQL for node "model.real_estate.dim_energy"
+[0m14:57:19.762523 [debug] [Thread-2 (]: Began compiling node model.real_estate.dim_property
+[0m14:57:19.765047 [debug] [Thread-3 (]: Writing injected SQL for node "model.real_estate.dim_location"
+[0m14:57:19.767029 [debug] [Thread-2 (]: Writing injected SQL for node "model.real_estate.dim_property"
+[0m14:57:19.767029 [debug] [Thread-4 (]: Began executing node model.real_estate.dim_date
+[0m14:57:19.769030 [debug] [Thread-4 (]: Writing runtime sql for node "model.real_estate.dim_date"
+[0m14:57:19.770030 [debug] [Thread-5 (]: Began executing node model.real_estate.dim_energy
+[0m14:57:19.771030 [debug] [Thread-5 (]: Writing runtime sql for node "model.real_estate.dim_energy"
+[0m14:57:19.772031 [debug] [Thread-2 (]: Began executing node model.real_estate.dim_property
+[0m14:57:19.774958 [debug] [Thread-2 (]: Writing runtime sql for node "model.real_estate.dim_property"
+[0m14:57:19.774958 [debug] [Thread-3 (]: Began executing node model.real_estate.dim_location
+[0m14:57:19.775981 [debug] [Thread-5 (]: Using snowflake connection "model.real_estate.dim_energy"
+[0m14:57:19.777982 [debug] [Thread-3 (]: Writing runtime sql for node "model.real_estate.dim_location"
+[0m14:57:19.777982 [debug] [Thread-4 (]: Using snowflake connection "model.real_estate.dim_date"
+[0m14:57:19.778975 [debug] [Thread-5 (]: On model.real_estate.dim_energy: create or replace transient table REAL_ESTATE_DB.GOLD.dim_energy
+    
+    
+    
+    as (
+
+SELECT
+
+    ROW_NUMBER() OVER (ORDER BY energy_rating) AS energy_key,
+    energy_rating
+
+FROM (
+
+    SELECT DISTINCT energy_rating
+    FROM REAL_ESTATE_DB.SILVER.listings_clean
+    WHERE energy_rating IS NOT NULL
+
+)
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.dim_energy"} */;
+[0m14:57:19.778975 [debug] [Thread-2 (]: Using snowflake connection "model.real_estate.dim_property"
+[0m14:57:19.779956 [debug] [Thread-4 (]: On model.real_estate.dim_date: create or replace transient table REAL_ESTATE_DB.GOLD.dim_date
+    
+    
+    
+    as (
+
+SELECT
+
+    ROW_NUMBER() OVER (ORDER BY listing_date) AS date_key,
+
+    listing_date,
+
+    YEAR(listing_date) AS year,
+    MONTH(listing_date) AS month,
+    DAY(listing_date) AS day,
+    MONTHNAME(listing_date) AS month_name,
+    DAYNAME(listing_date) AS day_name,
+    QUARTER(listing_date) AS quarter
+
+FROM REAL_ESTATE_DB.SILVER.listings_clean
+
+WHERE listing_date IS NOT NULL
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.dim_date"} */;
+[0m14:57:19.779956 [debug] [Thread-5 (]: Opening a new connection, currently in state init
+[0m14:57:19.779956 [debug] [Thread-2 (]: On model.real_estate.dim_property: create or replace transient table REAL_ESTATE_DB.GOLD.dim_property
+    
+    
+    
+    as (
+
+SELECT
+
+    ROW_NUMBER() OVER (
+        ORDER BY property_type,
+                 property_condition,
+                 heating_type,
+                 parking
+    ) AS property_key,
+
+    property_type,
+    property_condition,
+    heating_type,
+    parking
+
+FROM (
+
+    SELECT DISTINCT
+
+        property_type,
+        property_condition,
+        heating_type,
+        parking
+
+    FROM REAL_ESTATE_DB.SILVER.listings_clean
+
+)
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.dim_property"} */;
+[0m14:57:19.780957 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m14:57:19.781958 [debug] [Thread-3 (]: Using snowflake connection "model.real_estate.dim_location"
+[0m14:57:19.782958 [debug] [Thread-3 (]: On model.real_estate.dim_location: create or replace transient table REAL_ESTATE_DB.GOLD.dim_location
+    
+    
+    
+    as (
+
+SELECT
+
+    ROW_NUMBER() OVER (
+        ORDER BY country, city, neighborhood
+    ) AS location_key,
+
+    country,
+    city,
+    neighborhood
+
+FROM (
+
+    SELECT DISTINCT
+
+        country,
+        city,
+        neighborhood
+
+    FROM REAL_ESTATE_DB.SILVER.listings_clean
+
+)
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.dim_location"} */;
+[0m14:57:19.782958 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m14:57:20.504087 [debug] [Thread-2 (]: SQL status: SUCCESS 220 in 0.722 seconds
+[0m14:57:20.507085 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '98cc302f-21a1-4f38-8082-0d6099684981', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38D212990>]}
+[0m14:57:20.507085 [info ] [Thread-2 (]: 5 of 6 OK created sql table model GOLD.dim_property ............................ [[32mSUCCESS 220[0m in 0.75s]
+[0m14:57:20.508084 [debug] [Thread-2 (]: Finished running node model.real_estate.dim_property
+[0m14:57:20.676740 [debug] [Thread-4 (]: SQL status: SUCCESS 1903 in 0.896 seconds
+[0m14:57:20.680272 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '98cc302f-21a1-4f38-8082-0d6099684981', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38D1EAE10>]}
+[0m14:57:20.681271 [info ] [Thread-4 (]: 2 of 6 OK created sql table model GOLD.dim_date ................................ [[32mSUCCESS 1903[0m in 0.92s]
+[0m14:57:20.682271 [debug] [Thread-4 (]: Finished running node model.real_estate.dim_date
+[0m14:57:20.729055 [debug] [Thread-5 (]: SQL status: SUCCESS 7 in 0.949 seconds
+[0m14:57:20.731494 [debug] [Thread-5 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '98cc302f-21a1-4f38-8082-0d6099684981', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38D204B60>]}
+[0m14:57:20.732521 [info ] [Thread-5 (]: 3 of 6 OK created sql table model GOLD.dim_energy .............................. [[32mSUCCESS 7[0m in 0.97s]
+[0m14:57:20.733502 [debug] [Thread-5 (]: Finished running node model.real_estate.dim_energy
+[0m14:57:20.838036 [debug] [Thread-3 (]: SQL status: SUCCESS 407 in 1.054 seconds
+[0m14:57:20.841011 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '98cc302f-21a1-4f38-8082-0d6099684981', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38D13AA20>]}
+[0m14:57:20.842012 [info ] [Thread-3 (]: 4 of 6 OK created sql table model GOLD.dim_location ............................ [[32mSUCCESS 407[0m in 1.08s]
+[0m14:57:20.843011 [debug] [Thread-3 (]: Finished running node model.real_estate.dim_location
+[0m14:57:20.843011 [debug] [Thread-2 (]: Began running node model.real_estate.fact_listings
+[0m14:57:20.844028 [info ] [Thread-2 (]: 6 of 6 START sql table model GOLD.fact_listings ................................ [RUN]
+[0m14:57:20.844028 [debug] [Thread-2 (]: Re-using an available connection from the pool (formerly model.real_estate.dim_property, now model.real_estate.fact_listings)
+[0m14:57:20.845010 [debug] [Thread-2 (]: Began compiling node model.real_estate.fact_listings
+[0m14:57:20.848026 [debug] [Thread-2 (]: Writing injected SQL for node "model.real_estate.fact_listings"
+[0m14:57:20.849007 [debug] [Thread-2 (]: Began executing node model.real_estate.fact_listings
+[0m14:57:20.850007 [debug] [Thread-2 (]: Writing runtime sql for node "model.real_estate.fact_listings"
+[0m14:57:20.852061 [debug] [Thread-2 (]: Using snowflake connection "model.real_estate.fact_listings"
+[0m14:57:20.852061 [debug] [Thread-2 (]: On model.real_estate.fact_listings: create or replace transient table REAL_ESTATE_DB.GOLD.fact_listings
+    
+    
+    
+    as (
+
+WITH dim_date AS (
+    SELECT
+        listing_date,
+        ROW_NUMBER() OVER (ORDER BY listing_date) AS date_key
+    FROM REAL_ESTATE_DB.SILVER.listings_clean
+    WHERE listing_date IS NOT NULL
+),
+
+dim_energy AS (
+    SELECT *
+    FROM REAL_ESTATE_DB.GOLD.dim_energy
+),
+
+dim_location AS (
+    SELECT *
+    FROM REAL_ESTATE_DB.GOLD.dim_location
+),
+
+dim_property AS (
+    SELECT *
+    FROM REAL_ESTATE_DB.GOLD.dim_property
+)
+
+SELECT
+
+    l.listing_id,
+
+    d.date_key,
+    e.energy_key,
+    loc.location_key,
+    p.property_key,
+
+    l.price,
+    l.surface_m2,
+    l.num_rooms,
+    l.num_bathrooms,
+    l.floor,
+    l.year_built
+
+FROM REAL_ESTATE_DB.SILVER.listings_clean l
+
+LEFT JOIN dim_date d
+    ON l.listing_date = d.listing_date
+
+LEFT JOIN dim_energy e
+    ON l.energy_rating = e.energy_rating
+
+LEFT JOIN dim_location loc
+    ON l.country = loc.country
+   AND l.city = loc.city
+   AND l.neighborhood = loc.neighborhood
+
+LEFT JOIN dim_property p
+    ON l.property_type = p.property_type
+   AND l.property_condition = p.property_condition
+   AND l.heating_type = p.heating_type
+   AND l.parking = p.parking
+    )
+
+/* {"app": "dbt", "dbt_version": "1.11.12", "profile_name": "real_estate", "target_name": "dev", "node_id": "model.real_estate.fact_listings"} */;
+[0m14:57:21.904399 [debug] [Thread-2 (]: SQL status: SUCCESS 52795 in 1.052 seconds
+[0m14:57:21.906420 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '98cc302f-21a1-4f38-8082-0d6099684981', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38D11DB20>]}
+[0m14:57:21.907402 [info ] [Thread-2 (]: 6 of 6 OK created sql table model GOLD.fact_listings ........................... [[32mSUCCESS 52795[0m in 1.06s]
+[0m14:57:21.908427 [debug] [Thread-2 (]: Finished running node model.real_estate.fact_listings
+[0m14:57:21.909409 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:57:21.910410 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB' was left open.
+[0m14:57:21.910410 [debug] [MainThread]: On list_REAL_ESTATE_DB: Close
+[0m14:57:22.209760 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB' was left open.
+[0m14:57:22.209760 [debug] [MainThread]: On list_REAL_ESTATE_DB: Close
+[0m14:57:22.453235 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB_GOLD' was left open.
+[0m14:57:22.454235 [debug] [MainThread]: On list_REAL_ESTATE_DB_GOLD: Close
+[0m14:57:22.620951 [debug] [MainThread]: Connection 'list_REAL_ESTATE_DB_SILVER' was left open.
+[0m14:57:22.620951 [debug] [MainThread]: On list_REAL_ESTATE_DB_SILVER: Close
+[0m14:57:22.785021 [debug] [MainThread]: Connection 'model.real_estate.fact_listings' was left open.
+[0m14:57:22.786019 [debug] [MainThread]: On model.real_estate.fact_listings: Close
+[0m14:57:22.949391 [debug] [MainThread]: Connection 'model.real_estate.dim_date' was left open.
+[0m14:57:22.949391 [debug] [MainThread]: On model.real_estate.dim_date: Close
+[0m14:57:23.113873 [debug] [MainThread]: Connection 'model.real_estate.dim_energy' was left open.
+[0m14:57:23.114873 [debug] [MainThread]: On model.real_estate.dim_energy: Close
+[0m14:57:23.280823 [debug] [MainThread]: Connection 'model.real_estate.dim_location' was left open.
+[0m14:57:23.281816 [debug] [MainThread]: On model.real_estate.dim_location: Close
+[0m14:57:23.426411 [info ] [MainThread]: 
+[0m14:57:23.427414 [info ] [MainThread]: Finished running 6 table models in 0 hours 0 minutes and 7.94 seconds (7.94s).
+[0m14:57:23.429425 [debug] [MainThread]: Command end result
+[0m14:57:23.503567 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\us\real-estate-data-warehouse\target\manifest.json
+[0m14:57:23.505569 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\us\real-estate-data-warehouse\target\semantic_manifest.json
+[0m14:57:23.509569 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\us\real-estate-data-warehouse\target\run_results.json
+[0m14:57:23.509569 [info ] [MainThread]: 
+[0m14:57:23.510568 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:57:23.510568 [info ] [MainThread]: 
+[0m14:57:23.510568 [info ] [MainThread]: Done. PASS=6 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=6
+[0m14:57:23.511568 [debug] [MainThread]: Command `dbt run` succeeded at 14:57:23.511568 after 9.13 seconds
+[0m14:57:23.511568 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B38620FC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B3883216A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B3884AFF80>]}
+[0m14:57:23.511568 [debug] [MainThread]: Flushing usage events
+[0m14:57:25.337048 [debug] [MainThread]: An error was encountered while trying to flush usage events
